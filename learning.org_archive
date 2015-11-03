@@ -1,0 +1,51 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /home/masnes/org/learning.org
+
+
+* Tasks
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-17 Sat 01:00
+:ARCHIVE_FILE: ~/org/learning.org
+:ARCHIVE_CATEGORY: learning
+:END:
+** DONE Start new org file for tutorial
+CLOSED: [2015-10-17 Sat 00:00]
+** DONE Outline document
+CLOSED: [2015-10-17 Sat 00:08]
+** DONE Write introduction
+CLOSED: [2015-10-17 Sat 00:39]
+** DONE [#A] Finish document 
+CLOSED: [2015-10-17 Sat 00:59] SCHEDULED: <2015-10-18 Sat>
+
+* Introduction
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-17 Sat 01:00
+:ARCHIVE_FILE: ~/org/learning.org
+:ARCHIVE_CATEGORY: learning
+:END:
+Org-mode is a personal information management and outlining tool for Emacs. This document is intended to give the reader a "feel" for org-mode and to teach basic operations.
+** Obtaining org-mode
+
+You can download org-mode from the
+[[http://staff.science.uva.nl/~dominik/Tools/org/][org-mode home page.]]
+** DONE Installation
+CLOSED: [2015-10-17 Sat 00:46]
+** Configuration
+
+* The basics
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-10-17 Sat 01:00
+:ARCHIVE_FILE: ~/org/learning.org
+:ARCHIVE_CATEGORY: learning
+:END:
+** Creating a new file
+** Simple task list
+** Using headlines to structure a document
+** Links to other places
+** Adding notes to a task
+** Scheduling an appointment
+** DONE [#B] Creating a deadline
+CLOSED: [2015-10-17 Sat 00:59] DEADLINE: <2015-10-18 Sun>
+** Using the agenda

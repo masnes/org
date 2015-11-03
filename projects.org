@@ -1,0 +1,7 @@
+
+* Grade Predictor
+** TODO [#D] Continue working on this
+* Retirement Calculator
+** TODO [#D] Get a website up for the calculator
+*** TODO [#D] Look into the legality of operating said website.
+** TODO [#D] Write a full test suite
