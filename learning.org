@@ -6,3 +6,4 @@ CLOSED: [2015-10-27 Tue 18:43]
 * TODO [#B] Learn org to novice level
 * DONE [#B] Is it hard to find a good sales engineer? Why?
 CLOSED: [2015-11-01 Sun 13:30]
+* TODO [#B] Read https://hbr.org/2005/12/how-to-build-your-network/
