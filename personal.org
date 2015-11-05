@@ -40,3 +40,5 @@ DEADLINE: <2015-11-30 Mon>
 :LOGBOOK:
 CLOCK: [2015-11-01 Sun 21:05]
 :END:
+* TODO [#A] Bring Name of the Wind to Chris's Party
+** TODO [#A] Find it first

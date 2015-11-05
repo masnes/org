@@ -12,17 +12,17 @@
 CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 ***** Mention that developers must manually insert "// $NON-NLS-L$
 *** Product team meeting
-**** TODO [#A] Look over Olivier's list of things that need to happen before Regina tests. Deadline and prioritize them.
-
+**** TODO [#A] Olivier's list of things that need to happen
 O's notes for Tue Nov 3:
 11/10/2015
-- [-] 4.8.5 Lite Release [6/14]
+- [-] 4.8.5 Lite Release [6/15]
   - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
   - [X] Finalize JUnits
   - [X] Remove the "Eclipse-Enhanced"  option: gnu
   - [X] 0) Regina to test with Java 7 on 4.5  
   - [-] 1) Regina updates the docs for the Clickable Console
   - [X] 1) Michael checks for the documentation coherence
+  - [ ] (NEW) Michael reviews Regina's edits to IDE-usage page.
   - [-] 2) Regina updates the docs with the supported versions
   - [X] 3) Michael & Regina to go over error messages
   - [ ] 4) Regina send Green Light Email
@@ -32,12 +32,15 @@ O's notes for Tue Nov 3:
   - [ ] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
   - [ ] 5) Regina points the tests back to trunk (not 4.8.5)
 * Globalyzer Lite
-** TODO [#A] [4/11] Get Lite release ready                          :status meeting:
+** TODO [#A] [6/10] Get Lite release ready                          :status meeting:
 *** DONE [#A] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
-*** DOIN [#C] [0/1] Improve error messages (up to another day of time commitment is acceptable)
-**** DOIN [#C] Go over error messages with Regina
-*** regi [#A] [4/5] ErrorLinkyThing/ClickableConsole 
+*** DONE [#C] [1/1] Improve error messages (up to another day of time commitment is acceptable)
+CLOSED: [2015-11-04 Wed 12:52]
+**** DONE [#C] Go over error messages with Regina
+CLOSED: [2015-11-04 Wed 12:52]
+*** DONE [#A] [5/5] ErrorLinkyThing/ClickableConsole 
+CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#A] [1/1] Package up Lite with ErrorLinkyThing for Regina's testing.
 CLOSED: [2015-10-30 Fri 15:16]
 ***** DONE [#B] When ready, deal with licensing setup for ErrorLinkyThing.
@@ -45,12 +48,16 @@ CLOSED: [2015-10-29 Thu 13:05]
 **** DONE [#A] Commit updated plugin changes to Lingoport owned github..
 CLOSED: [2015-10-30 Fri 15:42] DEADLINE: <2015-10-30 Fri>
 ***** DONE [#A] Share github repo with lp_? linda, lori, olivier
-CLOSED: [2015-11-02 Mon 10:46]
+CLOSED: [2015-11-02 Mon 
+0:46]
 **** DONE [#A] Remove debug messages
 CLOSED: [2015-11-02 Mon 17:06]
-**** regi [#A] [0/2] Test that ClickableConsole works for Relevant version of:
-***** regi Eclipse 
-***** regi Java (7 and 8)
+**** DONE [#A] [2/2] Test that ClickableConsole works for Relevant version of:
+CLOSED: [2015-11-04 Wed 15:46]
+***** DONE Eclipse 
+CLOSED: [2015-11-04 Wed 15:46]
+***** DONE Java (7 and 8)
+CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#A] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 *** TODO [#B] [5/6] Any licensing stuff for Lite
@@ -104,7 +111,7 @@ CLOSED: [2015-11-02 Mon 17:47]
 **** CANC [#A] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** regi [#A] Document use of plugin for Lite
+**** TODO [#A] [7/8] Document use of plugin for Lite
 DEADLINE: <2015-11-06 Fri>
 ***** DONE [#C] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
@@ -116,15 +123,22 @@ https://stackoverflow.com/questions/582391/installing-eclipse-3-4-plugins-in-a-d
 CLOSED: [2015-11-02 Mon 17:08]
 ***** DONE [#B] Look through help pages that aren't "globalyzer-lite-IDE-usage.html"
 CLOSED: [2015-11-03 Tue 20:07]
-***** regi [#A] Re-doc change from eclipse-enhanced to gnu
+***** DONE [#A] Re-doc change from eclipse-enhanced to gnu
+CLOSED: [2015-11-04 Wed 15:47]
+***** DONE [#A] Review Regina's changes
+CLOSED: [2015-11-04 Wed 19:32]
+***** DONE [#A] Re-Merge my changes with Regina's
+CLOSED: [2015-11-04 Wed 19:32]
+***** MYBE [#A] Proof the post-merge result.
 *** DONE [#B] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
-*** WAIT [#A] [0/1] Merge 4.8.5 into master. (Tell Regina first).
-**** WAIT [#A] Send mail to everyone post-merge
 *** WAIT [#A] [0/2] Any release Wrap up
 **** WAIT [#B] Check organizations of files for unzipped jar file
 **** WAIT [#A] Confirm no bugs
 *** regi [#A] Document requirements on testlink.
+** Lite post release
+*** WAIT [#A] [0/1] Merge 4.8.5 into master. (Tell Regina first).
+**** WAIT [#A] Send mail to everyone post-merge
 ** Misc
 *** DONE [#C] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
@@ -151,32 +165,52 @@ CLOSED: [2015-11-02 Mon 10:47]
 CLOSED: [2015-11-03 Tue 20:13]
 * Competitors
 ** TODO [#D] Populate list
+*** Pasolo
 *** LRM competitor thing
 *** Things mentioned by EMC
 *** That startup company that wanted to view our demos
 * Sales engineer stuff
-** Categories
-*** Pre-Sale
-**** Client Demos
-**** Sandbox Setup
-**** Answering questions
-**** Video
-**** Does User Facing
-**** Clients
-***** Amex
-*** Post-Sale
-**** Pilot setup
-**** Install and config
-**** Rule set config
-**** LRM on-boarding
-**** Follow-up
-**** Lingotech Support
-**** Customer Satisfaction
-**** Clients
-***** Esri
-***** Blackboard
-*** Communication
-**** Internal
-**** Drive request channelling
-**** 2pm Friday
+** Pre-Sale
+*** Client Demos
+*** Client Meetings
+*** Sandbox Setup
+*** Answering questions
+*** Video
+*** Does User Facing
+*** Clients
+**** Amex
+** Post-Sale
+*** Pilot setup
+*** Install and config
+*** Rule set config
+*** LRM on-boarding
+*** Follow-up
+*** Lingotech Support
+*** Customer Satisfaction
+*** Clients
+**** Esri
+**** Blackboard
+** Communication
+*** Internal
+*** Drive request channelling
+*** 2pm Friday
+** DONE Russ/Blackbaud
+CLOSED: [2015-11-04 Wed 17:22]
+*** DONE Email Russ requesting
+CLOSED: [2015-11-04 Wed 15:29]
+**** TFS repo access
+**** GUI vpn connection
+**** Any other reqs
+**** Nomachine / esri setup
+*** DONE Read about CLDR
+CLOSED: [2015-11-04 Wed 17:22]
+** TODO [#A] Setup email signature
+DEADLINE: <2015-11-05 Thu>
 ** TODO [#B] Look into stack installer
+
+* Clients
+** Pre-Sale
+*** Amex
+** Post-Sale
+*** Esri
+*** Blackboad
