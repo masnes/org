@@ -1,4 +1,5 @@
 #+STARTUP: content
+#+PRIORITIES: A E C 
 #+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) | DONE(d) CANC(c)
 #+TODO: oliv(o) mary(m) regi(r) lind(i) lori(c) adam(a) nina(n) | done(q)
 * Weekly's
@@ -12,18 +13,19 @@
 CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 ***** Mention that developers must manually insert "// $NON-NLS-L$
 *** Product team meeting
-**** TODO [#A] Olivier's list of things that need to happen
+**** TODO [#A] Olivier's list of things that need to happen prior to release
 O's notes for Tue Nov 3:
 11/10/2015
-- [-] 4.8.5 Lite Release [6/15]
+- [-] 4.8.5 Lite Release [8/15]
   - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
   - [X] Finalize JUnits
   - [X] Remove the "Eclipse-Enhanced"  option: gnu
   - [X] 0) Regina to test with Java 7 on 4.5  
-  - [-] 1) Regina updates the docs for the Clickable Console
+  - [X] 1) Regina updates the docs for the Clickable Console
   - [X] 1) Michael checks for the documentation coherence
-  - [ ] (NEW) Michael reviews Regina's edits to IDE-usage page.
-  - [-] 2) Regina updates the docs with the supported versions
+  - [-] (NEW) Michael reviews Regina's edits to IDE-usage page.
+    - Other pages reviewed. Should probably look at the IDE-usage page too.
+  - [X] 2) Regina updates the docs with the supported versions
   - [X] 3) Michael & Regina to go over error messages
   - [ ] 4) Regina send Green Light Email
   - [ ] 5) O pushes the files on the installers & Let Adam know so he can PR
@@ -60,7 +62,7 @@ CLOSED: [2015-11-04 Wed 15:46]
 CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#A] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
-*** TODO [#B] [5/6] Any licensing stuff for Lite
+*** TODO [#D] [6/7] Any licensing stuff for Lite
 **** DONE [#B] Licenses retrieved for all but a few
 **** DONE [#B] Check up on a last few difficult licenses
 CLOSED: [2015-10-29 Thu 12:57]
@@ -86,7 +88,9 @@ CLOSED: [2015-11-02 Mon 17:07]
 CLOSED: [2015-11-03 Tue 10:19]
 ****** DONE [#C] Put everything in a "license" directory
 CLOSED: [2015-11-03 Tue 16:42]
-**** TODO [#A] Put Lite's License up on our website (somewhere?)
+**** CANC [#A] Put Lite's License up on our website (somewhere?)
+CLOSED: [2015-11-06 Fri 14:07] DEADLINE: <2015-11-06 Fri>
+**** TODO [#D] Put licenses on wiki.
 *** CANC [#C] [2/2] Junit                                    :status meeting:
 CLOSED: [2015-11-04 Wed 10:52]
 **** DONE [#A] Some tests fail.
@@ -99,7 +103,7 @@ CLOSED: [2015-11-04 Wed 10:52]
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 **** DONE [#A] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
 CLOSED: [2015-11-03 Tue 20:07]
-*** regi [#B] [3/4] Internal Docs                            :status meeting:
+*** regi [#A] [3/4] Internal Docs                            :status meeting:
 **** done [#B] Regina's doc updates
 CLOSED: [2015-10-30 Fri 15:02]
 ***** DONE [#A] Proof new version
@@ -133,12 +137,14 @@ CLOSED: [2015-11-04 Wed 19:32]
 *** DONE [#B] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
 *** WAIT [#A] [0/2] Any release Wrap up
-**** WAIT [#B] Check organizations of files for unzipped jar file
+**** TODO [#A] Check organizations of files for unzipped jar file
 **** WAIT [#A] Confirm no bugs
+***** TODO [#A] Fix exit on scan failure bug
+DEADLINE: <2015-11-06 Fri>
 *** regi [#A] Document requirements on testlink.
 ** Lite post release
-*** WAIT [#A] [0/1] Merge 4.8.5 into master. (Tell Regina first).
-**** WAIT [#A] Send mail to everyone post-merge
+*** WAIT [#C] [0/1] Merge 4.8.5 into master. (Tell Regina first).
+**** WAIT [#C] Send mail to everyone post-merge
 ** Misc
 *** DONE [#C] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
@@ -164,7 +170,7 @@ CLOSED: [2015-11-02 Mon 10:47]
 **** DONE [#B] Add to bugzilla.
 CLOSED: [2015-11-03 Tue 20:13]
 * Competitors
-** TODO [#D] Populate list
+** TODO [#E] Populate list
 *** Pasolo
 *** LRM competitor thing
 *** Things mentioned by EMC
@@ -175,7 +181,16 @@ CLOSED: [2015-11-03 Tue 20:13]
 *** Client Meetings
 *** Sandbox Setup
 *** Answering questions
+**** DONE Russ needs time estimate confirmation
+CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
+**** done (O) [#A] Russ needs information about the Prep Kit setup
+CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
+**** TODO [#B] Workbench only installation setup for Russ
+Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
 *** Video
+**** TODO [#A] Demo Video for whole suite.
+***** TODO [#A] Give out Deadline for demo video
+DEADLINE: <2015-11-13 Fri>
 *** Does User Facing
 *** Clients
 **** Amex
@@ -192,6 +207,7 @@ CLOSED: [2015-11-03 Tue 20:13]
 **** Blackboard
 ** Communication
 *** Internal
+**** TODO [#E] Confirm signature with Adam
 *** Drive request channelling
 *** 2pm Friday
 ** DONE Russ/Blackbaud
@@ -204,13 +220,42 @@ CLOSED: [2015-11-04 Wed 15:29]
 **** Nomachine / esri setup
 *** DONE Read about CLDR
 CLOSED: [2015-11-04 Wed 17:22]
-** TODO [#A] Setup email signature
-DEADLINE: <2015-11-05 Thu>
-** TODO [#B] Look into stack installer
+*** WAIT [#B] Setup Workbench installation for Blackbaud -- Most Important
+** DONE [#A] Setup email signature
+CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
+** TODO [#C] Look into stack installer
 
 * Clients
 ** Pre-Sale
 *** Amex
+*** Air Watch (Owned by VmWare)
+**** Need
+***** Training
+***** Code 18n (Globalyzer)
+***** ?
+**** Use
+***** Languages:
+****** Java (Android), Csharp, IOS (Objective C?, Swift?)
+***** WorldServer for Translation
+*** VmWare
+**** TODO [#E] Show kent grave sandbox pseudoloc.
+Ww-java -> commits -> lingoport pseudoloc automation.
+    showing a commit (show this if he's more technical)
+Say that you can configure
+- Length
+- Brackets
+- Characters on different unicode bit-plains.
+or
+(if he's less technical)
+Dashboard -> Project (not javademo) 
+          -> issues 
+          -> find issue
+          -> components 
+          -> ctrl-f locales 
+          -> any one of them will have issues in eo, pseudolocalized
 ** Post-Sale
 *** Esri
+*** EMC
+**** TODO [#B] Attend Meetings
 *** Blackboad
+*** Net 
