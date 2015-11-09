@@ -211,7 +211,8 @@ DEADLINE: <2015-11-13 Fri>
 **** Blackboard
 ** Communication
 *** Internal
-**** TODO [#E] Confirm signature with Adam
+**** DONE [#E] Confirm signature with Adam
+CLOSED: [2015-11-07 Sat 14:59]
 *** Drive request channelling
 *** 2pm Friday
 ** DONE [#A] Setup email signature
