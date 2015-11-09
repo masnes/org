@@ -56,11 +56,11 @@ CLOSED: [2015-11-02 Mon
 0:46]
 **** DONE [#A] Remove debug messages
 CLOSED: [2015-11-02 Mon 17:06]
-**** DONE [#A] [2/2] Test that ClickableConsole works for Relevant version of:
+**** done [#A] [2/2] Test that ClickableConsole works for Relevant version of:
+CLOSED: [2015-11-09 Mon 14:02]
+***** done Eclipse 
 CLOSED: [2015-11-04 Wed 15:46]
-***** DONE Eclipse 
-CLOSED: [2015-11-04 Wed 15:46]
-***** DONE Java (7 and 8)
+***** done Java (7 and 8)
 CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#A] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
@@ -117,7 +117,7 @@ CLOSED: [2015-11-02 Mon 17:47]
 **** CANC [#A] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** TODO [#A] [7/8] Document use of plugin for Lite
+**** TODO [#A] [7/9] Document use of plugin for Lite
 DEADLINE: <2015-11-06 Fri>
 ***** DONE [#C] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
@@ -135,6 +135,7 @@ CLOSED: [2015-11-04 Wed 15:47]
 CLOSED: [2015-11-04 Wed 19:32]
 ***** DONE [#A] Re-Merge my changes with Regina's
 CLOSED: [2015-11-04 Wed 19:32]
+***** TODO [#A] Check that the Docs contains links to the demo videos
 ***** TODO [#A] Doc review session. Need to fix merge stuff.
 SCHEDULED: <2015-11-09 Mon 15:00>
 *** DONE [#B] [0/0] Add missing "intellij_IDEA" option.
@@ -190,6 +191,8 @@ CLOSED: [2015-11-03 Tue 20:13]
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
 **** done [#A] (Olivier) Russ needs information about the Prep Kit setup
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
+**** TODO [#B] Respond to Paypal's questions on feature requests
+SCHEDULED: <2015-11-09 Mon>
 **** WAIT [#B] Workbench only installation setup for Russ
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
 ***** TODO [#B] Get Admin Access to the Globalyzer Server
@@ -218,9 +221,11 @@ CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 *** Internal
 **** DONE [#E] Confirm signature with Adam
 CLOSED: [2015-11-07 Sat 14:59]
+**** TODO [#C] Ask Adam about what I can/can't disclose. NDA stuff.
+***** TODO [#C] Populate a list of things that I might want to disclose.
 *** Drive request channelling
 *** 2pm Friday
-** DONE [#A] Setup email signature
+*** DONE [#A] Setup email signature
 CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
 ** TODO [#C] Look into stack installer
 ** Clients
