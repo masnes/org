@@ -192,8 +192,8 @@ Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc
 **** TODO [#A] Demo Video for whole suite.
 ***** TODO [#A] Give out Deadline for demo video
 DEADLINE: <2015-11-13 Fri>
-***** TODO [#A] Buy Microphone on Amazon
-DEADLINE: <2015-11-13 Fri>
+***** DONE [#A] Buy Microphone on Amazon
+CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 *** Does User Facing
 *** Clients
 **** Amex
@@ -208,6 +208,7 @@ DEADLINE: <2015-11-13 Fri>
 *** Clients
 **** Esri
 **** Blackboard
+**** Intuit
 ** Communication
 *** Internal
 **** DONE [#E] Confirm signature with Adam
@@ -261,6 +262,28 @@ CLOSED: [2015-11-04 Wed 15:29]
 ******* Nomachine / esri setup
 ****** DONE Read about CLDR
 CLOSED: [2015-11-04 Wed 17:22]
+****** TODO [#B] Email Russ to check in 
 ****** WAIT [#B] Setup Workbench installation for Blackbaud -- Most Important
 ******* WAIT [#B] Follow Instructions From Doc that Andrew sent
 ******* WAIT [#B] Will need admin access to globalyzer.com (get password from Olivier)
+**** Intuit
+***** Meeting w/ John O'Conner.
+****** Gave up on build integration of Globalyzer.
+****** John does have a team working with it.
+****** John is going to pull the repositories daily.
+****** Can Setup vpn access
+******* adam [#A] Need a username (masnes, olibouban)
+******* Will probably take 4-5 days
+******* Server is headless
+******* John is setting up workbench etc.
+******* Is interested in LRM
+******** Adam is giving them a free trial.
+******* John likes us (Loyd too). They feel like we're going above and beyond.
+******** Really annoyed with his developers.
+******** Doesn't have much power over the developers.
+******* John is slow to get things moving
+******** Loyd is pressuring him though.
+******* TODO [#B] [0/2] Help John get Jenkins setup w/  
+DEADLINE: <2015-11-16 Mon>
+- [ ] Globalyzer (Lite?)
+- [ ] LRM
