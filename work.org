@@ -12,7 +12,7 @@
 CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 ***** Mention that developers must manually insert "// $NON-NLS-L$
 *** Product team meeting
-**** TODO [#A] Olivier's list of things that need to happen prior to release
+**** WAIT [#A] Olivier's list of things that need to happen prior to release
 O's notes for Tue Nov 3:
 11/10/2015
 - [-] 4.8.5 Lite Release [8/15]
@@ -33,7 +33,7 @@ O's notes for Tue Nov 3:
   - [ ] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
   - [ ] 5) Regina points the tests back to trunk (not 4.8.5)
 * Globalyzer Lite
-** TODO [#A] [6/10] Get Lite release ready                          :status meeting:
+** WAIT [#A] [6/10] Get Lite release ready                          :status meeting:
 *** DONE [#A] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
 *** DONE [#C] [1/1] Improve error messages (up to another day of time commitment is acceptable)
@@ -132,7 +132,8 @@ CLOSED: [2015-11-04 Wed 15:47]
 CLOSED: [2015-11-04 Wed 19:32]
 ***** DONE [#A] Re-Merge my changes with Regina's
 CLOSED: [2015-11-04 Wed 19:32]
-***** MYBE [#A] Proof the post-merge result.
+***** TODO [#A] Doc review session. Need to fix merge stuff.
+SCHEDULED: <2015-11-09 Mon 15:00>
 *** DONE [#B] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
 *** WAIT [#A] [0/2] Any release Wrap up
@@ -186,7 +187,7 @@ CLOSED: [2015-11-03 Tue 20:13]
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
 **** done [#A] (Olivier) Russ needs information about the Prep Kit setup
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
-**** TODO [#B] Workbench only installation setup for Russ
+**** WAIT [#B] Workbench only installation setup for Russ
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
 *** Video
 **** TODO [#A] Demo Video for whole suite.
@@ -278,12 +279,13 @@ CLOSED: [2015-11-04 Wed 17:22]
 ******* John is setting up workbench etc.
 ******* Is interested in LRM
 ******** Adam is giving them a free trial.
+******** Want to push pseudolocalization, but need permission from devs to commit to code.
 ******* John likes us (Loyd too). They feel like we're going above and beyond.
 ******** Really annoyed with his developers.
 ******** Doesn't have much power over the developers.
 ******* John is slow to get things moving
 ******** Loyd is pressuring him though.
-******* TODO [#B] [0/2] Help John get Jenkins setup w/  
+******* WAIT [#B] [0/2] Help John get Jenkins setup w/  
 DEADLINE: <2015-11-16 Mon>
 - [ ] Globalyzer (Lite?)
 - [ ] LRM
