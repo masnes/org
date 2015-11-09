@@ -6,7 +6,6 @@
 ** Oct 23rd
 *** O Weekly Agenda
 **** See Globalyzer Lite
-
 ** Nov 2nd
 *** Company Meeting
 **** DONE [#A] Send Lori link to Lite videos (Mainly VS)
