@@ -32,6 +32,9 @@ O's notes for Tue Nov 3:
   - [ ] POST RELEASE!      
   - [ ] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
   - [ ] 5) Regina points the tests back to trunk (not 4.8.5)
+** Nov 9th
+*** Company Meeting
+*** Product Team Meeting
 * Globalyzer Lite
 ** WAIT [#A] [6/10] Get Lite release ready                          :status meeting:
 *** DONE [#A] [0/0] Look into lite eclipse click-ability     :status meeting:
@@ -189,6 +192,7 @@ CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
 **** WAIT [#B] Workbench only installation setup for Russ
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
+***** TODO [#B] Get Admin Access to the Globalyzer Server
 *** Video
 **** TODO [#A] Demo Video for whole suite.
 ***** TODO [#A] Give out Deadline for demo video
