@@ -186,6 +186,7 @@ CLOSED: [2015-11-03 Tue 20:13]
 *** Client Demos
 *** Client Meetings
 *** Sandbox Setup
+**** TODO [#A] Setup sandbox account for Rally
 *** Answering questions
 **** DONE Russ needs time estimate confirmation
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
