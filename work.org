@@ -227,7 +227,7 @@ CLOSED: [2015-11-07 Sat 14:59]
 *** 2pm Friday
 *** DONE [#A] Setup email signature
 CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
-** TODO [#C] Look into stack installer
+** TODO [#B] Look into stack installer
 ** Clients
 *** Pre-Sale
 **** Amex
@@ -241,7 +241,8 @@ CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
 ******* Java (Android), Csharp, IOS (Objective C?, Swift?)
 ****** WorldServer for Translation
 **** VmWare
-***** TODO [#E] Show kent grave sandbox pseudoloc.
+***** done [#E] Show kent grave sandbox pseudoloc.
+CLOSED: [2015-11-09 Mon 14:52]
 Ww-java -> commits -> lingoport pseudoloc automation.
     showing a commit (show this if he's more technical)
 Say that you can configure
