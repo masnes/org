@@ -1,5 +1,5 @@
 #+STARTUP: content
-#+PRIORITIES: A E C 
+#+PRIORITIES: 1 6 3 
 #+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) | DONE(d) CANC(c)
 #+TODO: oliv(o) mary(m) regi(r) lind(i) lori(c) adam(a) nina(n) | done(q)
 * Weekly's
@@ -8,11 +8,11 @@
 **** See Globalyzer Lite
 ** Nov 2nd
 *** Company Meeting
-**** DONE [#A] Send Lori link to Lite videos (Mainly VS)
+**** DONE [#1] Send Lori link to Lite videos (Mainly VS)
 CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 ***** Mention that developers must manually insert "// $NON-NLS-L$
 *** Product team meeting
-**** WAIT [#A] Olivier's list of things that need to happen prior to release
+**** WAIT [#1] Olivier's list of things that need to happen prior to release
 O's notes for Tue Nov 3:
 11/10/2015
 - [-] 4.8.5 Lite Release [8/15]
@@ -36,121 +36,121 @@ O's notes for Tue Nov 3:
 *** Company Meeting
 *** Product Team Meeting
 * Globalyzer Lite
-** WAIT [#A] [6/10] Get Lite release ready                          :status meeting:
-*** DONE [#A] [0/0] Look into lite eclipse click-ability     :status meeting:
+** WAIT [#1] [6/10] Get Lite release ready                          :status meeting:
+*** DONE [#1] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
-*** DONE [#C] [1/1] Improve error messages (up to another day of time commitment is acceptable)
+*** DONE [#3] [1/1] Improve error messages (up to another day of time commitment is acceptable)
 CLOSED: [2015-11-04 Wed 12:52]
-**** DONE [#C] Go over error messages with Regina
+**** DONE [#3] Go over error messages with Regina
 CLOSED: [2015-11-04 Wed 12:52]
-*** DONE [#A] [5/5] ErrorLinkyThing/ClickableConsole 
+*** DONE [#1] [5/5] ErrorLinkyThing/ClickableConsole 
 CLOSED: [2015-11-04 Wed 15:46]
-**** DONE [#A] [1/1] Package up Lite with ErrorLinkyThing for Regina's testing.
+**** DONE [#1] [1/1] Package up Lite with ErrorLinkyThing for Regina's testing.
 CLOSED: [2015-10-30 Fri 15:16]
-***** DONE [#B] When ready, deal with licensing setup for ErrorLinkyThing.
+***** DONE [#2] When ready, deal with licensing setup for ErrorLinkyThing.
 CLOSED: [2015-10-29 Thu 13:05]
-**** DONE [#A] Commit updated plugin changes to Lingoport owned github..
+**** DONE [#1] Commit updated plugin changes to Lingoport owned github..
 CLOSED: [2015-10-30 Fri 15:42] DEADLINE: <2015-10-30 Fri>
-***** DONE [#A] Share github repo with lp_? linda, lori, olivier
+***** DONE [#1] Share github repo with lp_? linda, lori, olivier
 CLOSED: [2015-11-02 Mon 
 0:46]
-**** DONE [#A] Remove debug messages
+**** DONE [#1] Remove debug messages
 CLOSED: [2015-11-02 Mon 17:06]
-**** done [#A] [2/2] Test that ClickableConsole works for Relevant version of:
+**** done [#1] [2/2] Test that ClickableConsole works for Relevant version of:
 CLOSED: [2015-11-09 Mon 14:02]
 ***** done Eclipse 
 CLOSED: [2015-11-04 Wed 15:46]
 ***** done Java (7 and 8)
 CLOSED: [2015-11-04 Wed 15:46]
-**** DONE [#A] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
+**** DONE [#1] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
-*** TODO [#D] [6/7] Any licensing stuff for Lite
-**** DONE [#B] Licenses retrieved for all but a few
-**** DONE [#B] Check up on a last few difficult licenses
+*** TODO [#4] [6/7] Any licensing stuff for Lite
+**** DONE [#2] Licenses retrieved for all but a few
+**** DONE [#2] Check up on a last few difficult licenses
 CLOSED: [2015-10-29 Thu 12:57]
 :LOGBOOK:
 CLOCK: [2015-10-29 Thu 12:53]--[2015-10-29 Thu 12:57] =>  0:04
 CLOCK: [2015-10-29 Thu 12:07]--[2015-10-29 Thu 12:18] =>  0:11
 :END:
-**** DONE [#B] Put the licenses somewhere.
-**** DONE [#B] Insure all links to licenses work.
+**** DONE [#2] Put the licenses somewhere.
+**** DONE [#2] Insure all links to licenses work.
 CLOSED: [2015-10-29 Thu 12:52]
 :LOGBOOK:
 CLOCK: [2015-10-29 Thu 12:42]--[2015-10-29 Thu 12:52] =>  0:10
 CLOCK: [2015-10-29 Thu 12:37]--[2015-10-29 Thu 12:40] =>  0:03
 :END:
-**** DONE [#B] Putting the Lingoport license in with Lite
+**** DONE [#2] Putting the Lingoport license in with Lite
 CLOSED: [2015-11-02 Mon 17:19]
-***** DONE [#B] Need some license changes confirmed
+***** DONE [#2] Need some license changes confirmed
 CLOSED: [2015-11-02 Mon 17:07]
-***** CANC [#B] Link to the open source licenses from the license file.
+***** CANC [#2] Link to the open source licenses from the license file.
 CLOSED: [2015-11-02 Mon 17:07]
 ****** No link necessary. I did mention their relative location though.
-***** DONE [#C] Confirm naming / directory conventions.
+***** DONE [#3] Confirm naming / directory conventions.
 CLOSED: [2015-11-03 Tue 10:19]
-****** DONE [#C] Put everything in a "license" directory
+****** DONE [#3] Put everything in a "license" directory
 CLOSED: [2015-11-03 Tue 16:42]
-**** CANC [#A] Put Lite's License up on our website (somewhere?)
+**** CANC [#1] Put Lite's License up on our website (somewhere?)
 CLOSED: [2015-11-06 Fri 14:07] DEADLINE: <2015-11-06 Fri>
-**** TODO [#D] Put licenses on wiki.
-*** CANC [#C] [2/2] Junit                                    :status meeting:
+**** TODO [#4] Put licenses on wiki.
+*** CANC [#3] [2/2] Junit                                    :status meeting:
 CLOSED: [2015-11-04 Wed 10:52]
-**** DONE [#A] Some tests fail.
+**** DONE [#1] Some tests fail.
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 This is due to lagging behind current refactoring. It doesn't indicate a program
 problem. However, I should still probably refactor these.
-**** CANC [#C] Add more coverage.
+**** CANC [#3] Add more coverage.
 CLOSED: [2015-11-04 Wed 10:52]
-*** DONE [#C] Refactor eclipse-standard location
+*** DONE [#3] Refactor eclipse-standard location
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
-**** DONE [#A] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
+**** DONE [#1] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
 CLOSED: [2015-11-03 Tue 20:07]
-*** regi [#A] [3/4] Internal Docs                            :status meeting:
-**** done [#B] Regina's doc updates
+*** regi [#1] [4/4] Internal Docs                            :status meeting:
+**** done [#2] Regina's doc updates
 CLOSED: [2015-10-30 Fri 15:02]
-***** DONE [#A] Proof new version
+***** DONE [#1] Proof new version
 CLOSED: [2015-10-30 Fri 18:11]
-****** DONE [#B] Verify that there aren't other tweaks that Regina isn't aware of
+****** DONE [#2] Verify that there aren't other tweaks that Regina isn't aware of
 CLOSED: [2015-10-30 Fri 18:11]
-**** DONE [#A] Update --console-output "eclipse" eclipse screenshot.
+**** DONE [#1] Update --console-output "eclipse" eclipse screenshot.
 CLOSED: [2015-11-02 Mon 17:47]
-**** CANC [#A] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
+**** CANC [#1] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** TODO [#A] [7/9] Document use of plugin for Lite
-DEADLINE: <2015-11-06 Fri>
-***** DONE [#C] Change Plugin Name
+**** DONE [#1] [7/9] Document use of plugin for Lite
+CLOSED: [2015-11-10 Tue 11:18] DEADLINE: <2015-11-06 Fri>
+***** DONE [#3] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
-***** DONE [#A] Get the Plugin Working Again! 
+***** DONE [#1] Get the Plugin Working Again! 
 CLOSED: [2015-10-30 Fri 13:08]
 see: http://www.vogella.com/tutorials/EclipsePlugIn/article.html#deployplugin_overview
 https://stackoverflow.com/questions/582391/installing-eclipse-3-4-plugins-in-a-directory-other-than-eclipse-home-plugins/582430#582430
-***** DONE [#A] Double check that the new README is correct.
+***** DONE [#1] Double check that the new README is correct.
 CLOSED: [2015-11-02 Mon 17:08]
-***** DONE [#B] Look through help pages that aren't "globalyzer-lite-IDE-usage.html"
+***** DONE [#2] Look through help pages that aren't "globalyzer-lite-IDE-usage.html"
 CLOSED: [2015-11-03 Tue 20:07]
-***** DONE [#A] Re-doc change from eclipse-enhanced to gnu
+***** DONE [#1] Re-doc change from eclipse-enhanced to gnu
 CLOSED: [2015-11-04 Wed 15:47]
-***** DONE [#A] Review Regina's changes
+***** DONE [#1] Review Regina's changes
 CLOSED: [2015-11-04 Wed 19:32]
-***** DONE [#A] Re-Merge my changes with Regina's
+***** DONE [#1] Re-Merge my changes with Regina's
 CLOSED: [2015-11-04 Wed 19:32]
-***** TODO [#A] Check that the Docs contains links to the demo videos
-***** TODO [#A] Doc review session. Need to fix merge stuff.
+***** TODO [#1] Check that the Docs contains links to the demo videos
+***** TODO [#1] Doc review session. Need to fix merge stuff.
 SCHEDULED: <2015-11-09 Mon 15:00>
-*** DONE [#B] [0/0] Add missing "intellij_IDEA" option.
+*** DONE [#2] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
-*** WAIT [#A] [0/2] Any release Wrap up
-**** WAIT [#A] Check organizations of files for unzipped jar file
-**** regi [#A] Confirm no bugs
-***** DONE [#A] Fix exit on scan failure bug
+*** WAIT [#1] [0/2] Any release Wrap up
+**** WAIT [#1] Check organizations of files for unzipped jar file
+**** regi [#1] Confirm no bugs
+***** DONE [#1] Fix exit on scan failure bug
 CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
-*** regi [#A] Document requirements on testlink.
+*** regi [#3] Document requirements on testlink.
 ** Lite post release
-*** WAIT [#C] [0/1] Merge 4.8.5 into master. (Tell Regina first).
-**** WAIT [#C] Send mail to everyone post-merge
+*** WAIT [#3] [0/1] Merge 4.8.5 into master. (Tell Regina first).
+**** WAIT [#3] Send mail to everyone post-merge
 ** Misc
-*** DONE [#C] [0/0] Read more into, ask about design by contract.
+*** DONE [#3] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
 Ok that this setter-ish-thing doesn't accept null?
 ProjectDetails.java:227 
@@ -160,23 +160,23 @@ addScan(@Nonnull Scan scan) {
     }
     m_scans.add(scan
 Answer: It's probably best to throw an error on null, but this is OK.
-*** DONE [#B] [3/3] Look into lite encoding handing for UTF-16BE_NO_BOM
+*** DONE [#2] [3/3] Look into lite encoding handing for UTF-16BE_NO_BOM
 CLOSED: [2015-11-03 Tue 20:13]
-**** DONE [#A] Remind Mary
+**** DONE [#1] Remind Mary
 CLOSED: [2015-10-30 Fri 15:09] DEADLINE: <2015-10-30 Fri>
 :LOGBOOK:
 CLOCK: [2015-10-30 Fri 15:06]--[2015-10-30 Fri 15:09] =>  0:03
 :END:
 Mary said that it's a good feature request. But didn't imply that it was a 
 release showstopper.
-**** DONE [#B] Get final confirmation from O that it's ok to release with said problem.
+**** DONE [#2] Get final confirmation from O that it's ok to release with said problem.
 CLOSED: [2015-11-02 Mon 10:47]
-**** DONE [#B] Add to bugzilla.
+**** DONE [#2] Add to bugzilla.
 CLOSED: [2015-11-03 Tue 20:13]
 * Misc
-** TODO [#C] Set better svn password
+** TODO [#3] Set better svn password
 * Competitors
-** TODO [#E] Populate list
+** TODO [#5] Populate list
 *** Pasolo
 *** LRM competitor thing
 *** Things mentioned by EMC
@@ -186,22 +186,24 @@ CLOSED: [2015-11-03 Tue 20:13]
 *** Client Demos
 *** Client Meetings
 *** Sandbox Setup
-**** TODO [#A] Setup sandbox account for Rally
+**** CANC [#1] Setup sandbox account for Rally
+CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
 *** Answering questions
 **** DONE Russ needs time estimate confirmation
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
-**** done [#A] (Olivier) Russ needs information about the Prep Kit setup
+**** done [#1] (Olivier) Russ needs information about the Prep Kit setup
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
-**** TODO [#B] Respond to Paypal's questions on feature requests
-SCHEDULED: <2015-11-09 Mon>
-**** WAIT [#B] Workbench only installation setup for Russ
+**** done [#2] Respond to Paypal's questions on feature requests
+CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
+**** WAIT [#2] Workbench only installation setup for Russ
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
-***** TODO [#B] Get Admin Access to the Globalyzer Server
+***** DONE [#2] Get Admin Access to the Globalyzer Server
+CLOSED: [2015-11-10 Tue 11:21]
 *** Video
-**** TODO [#A] Demo Video for whole suite.
-***** TODO [#A] Give out Deadline for demo video
+**** TODO [#3] Demo Video for whole suite.
+***** TODO [#3] Give out Deadline for demo video
 DEADLINE: <2015-11-13 Fri>
-***** DONE [#A] Buy Microphone on Amazon
+***** DONE [#1] Buy Microphone on Amazon
 CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 *** Does User Facing
 *** Clients
@@ -220,15 +222,15 @@ CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 **** Intuit
 ** Communication
 *** Internal
-**** DONE [#E] Confirm signature with Adam
+**** DONE [#5] Confirm signature with Adam
 CLOSED: [2015-11-07 Sat 14:59]
-**** TODO [#C] Ask Adam about what I can/can't disclose. NDA stuff.
-***** TODO [#C] Populate a list of things that I might want to disclose.
+**** TODO [#3] Ask Adam about what I can/can't disclose. NDA stuff.
+***** TODO [#3] Populate a list of things that I might want to disclose.
 *** Drive request channelling
 *** 2pm Friday
-*** DONE [#A] Setup email signature
+*** DONE [#1] Setup email signature
 CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
-** TODO [#B] Look into stack installer
+** TODO [#2] Look into stack installer
 ** Clients
 *** Pre-Sale
 **** Amex
@@ -242,7 +244,7 @@ CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
 ******* Java (Android), Csharp, IOS (Objective C?, Swift?)
 ****** WorldServer for Translation
 **** VmWare
-***** done [#E] Show kent grave sandbox pseudoloc.
+***** done [#5] Show kent grave sandbox pseudoloc.
 CLOSED: [2015-11-09 Mon 14:52]
 Ww-java -> commits -> lingoport pseudoloc automation.
     showing a commit (show this if he's more technical)
@@ -261,7 +263,7 @@ Dashboard -> Project (not javademo)
 *** Post-Sale
 **** Esri
 **** EMC
-***** TODO [#B] Attend Meetings
+***** TODO [#2] Attend Meetings
 **** Blackboad
 ****** Net 
 ***** DONE Russ/Blackbaud
@@ -274,17 +276,17 @@ CLOSED: [2015-11-04 Wed 15:29]
 ******* Nomachine / esri setup
 ****** DONE Read about CLDR
 CLOSED: [2015-11-04 Wed 17:22]
-****** TODO [#B] Email Russ to check in 
-****** WAIT [#B] Setup Workbench installation for Blackbaud -- Most Important
-******* WAIT [#B] Follow Instructions From Doc that Andrew sent
-******* WAIT [#B] Will need admin access to globalyzer.com (get password from Olivier)
+****** TODO [#2] Email Russ to check in 
+****** WAIT [#2] Setup Workbench installation for Blackbaud -- Most Important
+******* WAIT [#2] Follow Instructions From Doc that Andrew sent
+******* WAIT [#2] Will need admin access to globalyzer.com (get password from Olivier)
 **** Intuit
 ***** Meeting w/ John O'Conner.
 ****** Gave up on build integration of Globalyzer.
 ****** John does have a team working with it.
 ****** John is going to pull the repositories daily.
 ****** Can Setup vpn access
-******* adam [#A] Need a username (masnes, olibouban)
+******* adam [#1] Need a username (masnes, olibouban)
 ******* Will probably take 4-5 days
 ******* Server is headless
 ******* John is setting up workbench etc.
@@ -296,7 +298,7 @@ CLOSED: [2015-11-04 Wed 17:22]
 ******** Doesn't have much power over the developers.
 ******* John is slow to get things moving
 ******** Loyd is pressuring him though.
-******* WAIT [#B] [0/2] Help John get Jenkins setup w/  
+******* WAIT [#2] [0/2] Help John get Jenkins setup w/  
 DEADLINE: <2015-11-16 Mon>
 - [ ] Globalyzer (Lite?)
 - [ ] LRM
