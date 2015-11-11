@@ -22,7 +22,7 @@ O's notes for Tue Nov 3:
   - [X] 0) Regina to test with Java 7 on 4.5  
   - [X] 1) Regina updates the docs for the Clickable Console
   - [X] 1) Michael checks for the documentation coherence
-  - [-] (NEW) Michael reviews Regina's edits to IDE-usage page.
+  - [-] (NEW) Review edits to documentation usage
     - Other pages reviewed. Should probably look at the IDE-usage page too.
   - [X] 2) Regina updates the docs with the supported versions
   - [X] 3) Michael & Regina to go over error messages
@@ -35,8 +35,20 @@ O's notes for Tue Nov 3:
 ** Nov 9th
 *** Company Meeting
 *** Product Team Meeting
+*** Weekly Agenda Checklist
+**** TODO [#1] [0/8]
+- [-] Lite out
+  - [-] HTML Last pass for IDE usage page
+  - [X] Exit error code bug fixed
+- [ ] BB installation
+- [ ] Stack Installer - BB harvesting
+- [ ] Wiki License Page
+- [ ] EMC: attend meetings
+- [ ] NetApp: Introduction
+- [ ] Esri
+- [ ] Give a Time Frame for a demo of the Lingoport Suite
 * Globalyzer Lite
-** WAIT [#1] [6/10] Get Lite release ready                          :status meeting:
+** WAIT [#1] [6/9] Get Lite release ready                          :status meeting:
 *** DONE [#1] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
 *** DONE [#3] [1/1] Improve error messages (up to another day of time commitment is acceptable)
@@ -64,7 +76,7 @@ CLOSED: [2015-11-04 Wed 15:46]
 CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#1] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
-*** TODO [#4] [6/7] Any licensing stuff for Lite
+*** TODO [#4] [6/6] Any licensing stuff for Lite
 **** DONE [#2] Licenses retrieved for all but a few
 **** DONE [#2] Check up on a last few difficult licenses
 CLOSED: [2015-10-29 Thu 12:57]
@@ -92,7 +104,6 @@ CLOSED: [2015-11-03 Tue 10:19]
 CLOSED: [2015-11-03 Tue 16:42]
 **** CANC [#1] Put Lite's License up on our website (somewhere?)
 CLOSED: [2015-11-06 Fri 14:07] DEADLINE: <2015-11-06 Fri>
-**** TODO [#4] Put licenses on wiki.
 *** CANC [#3] [2/2] Junit                                    :status meeting:
 CLOSED: [2015-11-04 Wed 10:52]
 **** DONE [#1] Some tests fail.
@@ -105,7 +116,7 @@ CLOSED: [2015-11-04 Wed 10:52]
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 **** DONE [#1] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
 CLOSED: [2015-11-03 Tue 20:07]
-*** regi [#1] [4/4] Internal Docs                            :status meeting:
+*** TODO [#1] [3/4] Internal Docs                            :status meeting:
 **** done [#2] Regina's doc updates
 CLOSED: [2015-10-30 Fri 15:02]
 ***** DONE [#1] Proof new version
@@ -117,8 +128,8 @@ CLOSED: [2015-11-02 Mon 17:47]
 **** CANC [#1] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** DONE [#1] [7/9] Document use of plugin for Lite
-CLOSED: [2015-11-10 Tue 11:18] DEADLINE: <2015-11-06 Fri>
+**** TODO [#1] [8/9] Document use of plugin for Lite
+DEADLINE: <2015-11-06 Fri>
 ***** DONE [#3] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
 ***** DONE [#1] Get the Plugin Working Again! 
@@ -135,7 +146,8 @@ CLOSED: [2015-11-04 Wed 15:47]
 CLOSED: [2015-11-04 Wed 19:32]
 ***** DONE [#1] Re-Merge my changes with Regina's
 CLOSED: [2015-11-04 Wed 19:32]
-***** TODO [#1] Check that the Docs contains links to the demo videos
+***** DONE [#1] Check that the Docs contains links to the demo videos
+CLOSED: [2015-11-10 Tue 18:18]
 ***** TODO [#1] Doc review session. Need to fix merge stuff.
 SCHEDULED: <2015-11-09 Mon 15:00>
 *** DONE [#2] [0/0] Add missing "intellij_IDEA" option.
@@ -145,10 +157,12 @@ CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
 **** regi [#1] Confirm no bugs
 ***** DONE [#1] Fix exit on scan failure bug
 CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
-*** regi [#3] Document requirements on testlink.
+***** TODO [#1] Find and fig O's mystery nothing found bug.
 ** Lite post release
 *** WAIT [#3] [0/1] Merge 4.8.5 into master. (Tell Regina first).
 **** WAIT [#3] Send mail to everyone post-merge
+*** regi [#3] Document requirements on testlink.
+*** TODO [#4] Put licenses on wiki.
 ** Misc
 *** DONE [#3] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
@@ -176,7 +190,7 @@ CLOSED: [2015-11-03 Tue 20:13]
 * Misc
 ** TODO [#3] Set better svn password
 * Competitors
-** TODO [#5] Populate list
+** TODO [#6] Populate list
 *** Pasolo
 *** LRM competitor thing
 *** Things mentioned by EMC
