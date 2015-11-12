@@ -15,7 +15,7 @@ CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 **** WAIT [#1] Olivier's list of things that need to happen prior to release
 O's notes for Tue Nov 3:
 11/10/2015
-- [-] 4.8.5 Lite Release [10/17]
+- [-] 4.8.5 Lite Release [11/17]
   - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
   - [X] Finalize JUnits
   - [X] Remove the "Eclipse-Enhanced"  option: gnu
@@ -26,7 +26,7 @@ O's notes for Tue Nov 3:
   - [X] 2) Regina updates the docs with the supported versions
   - [X] 3) Michael & Regina to go over error messages
   - [X] (NEW) Any last bugs fixed
-  - [ ] (NEW) Michael proofs Regina's updates to the README
+  - [X] (NEW) Michael proofs Regina's updates to the README
   - [ ] 4) Regina send Green Light Email
   - [ ] 5) O pushes the files on the installers & Let Adam know so he can PR
   - [ ] RELEASE HAPPENS HERE!
@@ -50,7 +50,7 @@ O's notes for Tue Nov 3:
 - [ ] Esri
 - [ ] Give a Time Frame for a demo of the Lingoport Suite
 * Globalyzer Lite
-** WAIT [#1] [7/9] Get Lite release ready                          :status meeting:
+** WAIT [#1] [8/9] Get Lite release ready                          :status meeting:
 *** DONE [#1] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
 *** DONE [#3] [1/1] Improve error messages (up to another day of time commitment is acceptable)
@@ -119,7 +119,8 @@ CLOSED: [2015-11-04 Wed 10:52]
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 **** DONE [#1] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
 CLOSED: [2015-11-03 Tue 20:07]
-*** regi [#1] [3/4] Internal Docs                            :status meeting:
+*** DONE [#1] [4/4] Internal Docs                            :status meeting:
+CLOSED: [2015-11-12 Thu 14:07]
 **** done [#2] Regina's doc updates
 CLOSED: [2015-10-30 Fri 15:02]
 ***** DONE [#1] Proof new version
@@ -131,8 +132,8 @@ CLOSED: [2015-11-02 Mon 17:47]
 **** CANC [#1] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** regi [#1] [9/9] Document use of plugin for Lite
-DEADLINE: <2015-11-06 Fri>
+**** DONE [#1] [9/9] Document use of plugin for Lite
+CLOSED: [2015-11-12 Thu 14:07] DEADLINE: <2015-11-06 Fri>
 ***** DONE [#3] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
 ***** DONE [#1] Get the Plugin Working Again! 
@@ -155,8 +156,9 @@ CLOSED: [2015-11-10 Tue 18:18]
 CLOSED: [2015-11-11 Wed 18:43] SCHEDULED: <2015-11-09 Mon 15:00>
 *** DONE [#2] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
-*** WAIT [#1] [0/2] Any release Wrap up
-**** WAIT [#1] Check organizations of files for unzipped jar file
+*** WAIT [#1] [1/2] Any release Wrap up
+**** DONE [#1] Check organizations of files for unzipped jar file
+CLOSED: [2015-11-12 Thu 14:07]
 **** regi [#1] [3/3] Confirm no bugs
 ***** DONE [#1] Fix exit on scan failure bug
 CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
