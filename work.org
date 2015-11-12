@@ -49,7 +49,7 @@ O's notes for Tue Nov 3:
 - [ ] Esri
 - [ ] Give a Time Frame for a demo of the Lingoport Suite
 * Globalyzer Lite
-** WAIT [#1] [6/9] Get Lite release ready                          :status meeting:
+** WAIT [#1] [7/9] Get Lite release ready                          :status meeting:
 *** DONE [#1] [0/0] Look into lite eclipse click-ability     :status meeting:
 CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
 *** DONE [#3] [1/1] Improve error messages (up to another day of time commitment is acceptable)
@@ -77,7 +77,8 @@ CLOSED: [2015-11-04 Wed 15:46]
 CLOSED: [2015-11-04 Wed 15:46]
 **** DONE [#1] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
-*** TODO [#4] [6/6] Any licensing stuff for Lite
+*** DONE [#4] [6/6] Pre-release licensing stuff for Lite
+CLOSED: [2015-11-11 Wed 19:14]
 **** DONE [#2] Licenses retrieved for all but a few
 **** DONE [#2] Check up on a last few difficult licenses
 CLOSED: [2015-10-29 Thu 12:57]
@@ -235,7 +236,7 @@ CLOSED: [2015-11-10 Tue 11:21]
 **** TODO [#2] Write up installation details for Robert West        :Esri:
 *** Video
 **** TODO [#3] Demo Video for whole suite.
-***** TODO [#3] Give out Deadline for demo video
+***** TODO [#3] Give out Deadline for demo video         :status meeting:
 DEADLINE: <2015-11-13 Fri>
 ***** DONE [#1] Buy Microphone on Amazon
 CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
@@ -276,7 +277,7 @@ CLOSED: [2015-11-04 Wed 15:29]
 ******* Nomachine / esri setup
 ****** DONE Read about CLDR
 CLOSED: [2015-11-04 Wed 17:22]
-****** TODO [#2] Email Russ to check in 
+****** TODO [#2] Email Russ to check in                      :Blackbaud:
 ****** WAIT [#2] Setup Workbench installation for Blackbaud -- Most Important
 ******* WAIT [#2] Follow Instructions From Doc that Andrew sent
 ******* WAIT [#2] Will need admin access to globalyzer.com (get password from Olivier)
