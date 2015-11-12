@@ -15,17 +15,17 @@ CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 **** WAIT [#1] Olivier's list of things that need to happen prior to release
 O's notes for Tue Nov 3:
 11/10/2015
-- [-] 4.8.5 Lite Release [8/15]
+- [-] 4.8.5 Lite Release [9/16]
   - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
   - [X] Finalize JUnits
   - [X] Remove the "Eclipse-Enhanced"  option: gnu
   - [X] 0) Regina to test with Java 7 on 4.5  
   - [X] 1) Regina updates the docs for the Clickable Console
   - [X] 1) Michael checks for the documentation coherence
-  - [-] (NEW) Review edits to documentation usage
-    - Other pages reviewed. Should probably look at the IDE-usage page too.
+  - [X] (NEW) Review edits to documentation usage
   - [X] 2) Regina updates the docs with the supported versions
   - [X] 3) Michael & Regina to go over error messages
+  - [-] (NEW) Any last bugs fixed
   - [ ] 4) Regina send Green Light Email
   - [ ] 5) O pushes the files on the installers & Let Adam know so he can PR
   - [ ] RELEASE HAPPENS HERE!
@@ -35,11 +35,12 @@ O's notes for Tue Nov 3:
 ** Nov 9th
 *** Company Meeting
 *** Product Team Meeting
-*** Weekly Agenda Checklist
-**** TODO [#1] [0/8]
+*** TODO [#1] [0/8] Weekly Agenda Checklist 
 - [-] Lite out
   - [-] HTML Last pass for IDE usage page
   - [X] Exit error code bug fixed
+  - [X] Project Path bug figured out
+  - [-] Project Path bug fixed
 - [ ] BB installation
 - [ ] Stack Installer - BB harvesting
 - [ ] Wiki License Page
@@ -116,7 +117,7 @@ CLOSED: [2015-11-04 Wed 10:52]
 CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
 **** DONE [#1] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
 CLOSED: [2015-11-03 Tue 20:07]
-*** TODO [#1] [3/4] Internal Docs                            :status meeting:
+*** regi [#1] [3/4] Internal Docs                            :status meeting:
 **** done [#2] Regina's doc updates
 CLOSED: [2015-10-30 Fri 15:02]
 ***** DONE [#1] Proof new version
@@ -128,7 +129,7 @@ CLOSED: [2015-11-02 Mon 17:47]
 **** CANC [#1] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
 CLOSED: [2015-10-27 Tue 11:57]
 This may not have been clear to Michael Chen
-**** TODO [#1] [8/9] Document use of plugin for Lite
+**** regi [#1] [9/9] Document use of plugin for Lite
 DEADLINE: <2015-11-06 Fri>
 ***** DONE [#3] Change Plugin Name
 CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
@@ -148,8 +149,8 @@ CLOSED: [2015-11-04 Wed 19:32]
 CLOSED: [2015-11-04 Wed 19:32]
 ***** DONE [#1] Check that the Docs contains links to the demo videos
 CLOSED: [2015-11-10 Tue 18:18]
-***** TODO [#1] Doc review session. Need to fix merge stuff.
-SCHEDULED: <2015-11-09 Mon 15:00>
+***** DONE [#1] Doc review session. Need to fix merge stuff.
+CLOSED: [2015-11-11 Wed 18:43] SCHEDULED: <2015-11-09 Mon 15:00>
 *** DONE [#2] [0/0] Add missing "intellij_IDEA" option.
 CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
 *** WAIT [#1] [0/2] Any release Wrap up
@@ -157,7 +158,9 @@ CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
 **** regi [#1] Confirm no bugs
 ***** DONE [#1] Fix exit on scan failure bug
 CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
-***** TODO [#1] Find and fig O's mystery nothing found bug.
+***** DONE [#1] Find and fig O's mystery nothing found bug.
+CLOSED: [2015-11-11 Wed 18:47]
+***** oliv [#1] Fix O's mystery nothing found bug
 ** Lite post release
 *** WAIT [#3] [0/1] Merge 4.8.5 into master. (Tell Regina first).
 **** WAIT [#3] Send mail to everyone post-merge
@@ -198,67 +201,7 @@ CLOSED: [2015-11-03 Tue 20:13]
 * Sales engineer stuff
 ** Pre-Sale
 *** Client Demos
-*** Client Meetings
-*** Sandbox Setup
-**** CANC [#1] Setup sandbox account for Rally
-CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
-*** Answering questions
-**** DONE Russ needs time estimate confirmation
-CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
-**** done [#1] (Olivier) Russ needs information about the Prep Kit setup
-CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
-**** done [#2] Respond to Paypal's questions on feature requests
-CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
-**** WAIT [#2] Workbench only installation setup for Russ
-Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
-***** DONE [#2] Get Admin Access to the Globalyzer Server
-CLOSED: [2015-11-10 Tue 11:21]
-*** Video
-**** TODO [#3] Demo Video for whole suite.
-***** TODO [#3] Give out Deadline for demo video
-DEADLINE: <2015-11-13 Fri>
-***** DONE [#1] Buy Microphone on Amazon
-CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
-*** Does User Facing
-*** Clients
-**** Amex
-** Post-Sale
-*** Pilot setup
-*** Install and config
-*** Rule set config
-*** LRM on-boarding
-*** Follow-up
-*** Lingotech Support
-*** Customer Satisfaction
-*** Clients
-**** Esri
-**** Blackboard
-**** Intuit
-** Communication
-*** Internal
-**** DONE [#5] Confirm signature with Adam
-CLOSED: [2015-11-07 Sat 14:59]
-**** TODO [#3] Ask Adam about what I can/can't disclose. NDA stuff.
-***** TODO [#3] Populate a list of things that I might want to disclose.
-*** Drive request channelling
-*** 2pm Friday
-*** DONE [#1] Setup email signature
-CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
-** TODO [#2] Look into stack installer
-** Clients
-*** Pre-Sale
-**** Amex
-**** Air Watch (Owned by VmWare)
-***** Need
-****** Training
-****** Code 18n (Globalyzer)
-****** ?
-***** Use
-****** Languages:
-******* Java (Android), Csharp, IOS (Objective C?, Swift?)
-****** WorldServer for Translation
-**** VmWare
-***** done [#5] Show kent grave sandbox pseudoloc.
+**** done [#5] Show kent grave sandbox pseudoloc.
 CLOSED: [2015-11-09 Mon 14:52]
 Ww-java -> commits -> lingoport pseudoloc automation.
     showing a commit (show this if he's more technical)
@@ -274,10 +217,53 @@ Dashboard -> Project (not javademo)
           -> components 
           -> ctrl-f locales 
           -> any one of them will have issues in eo, pseudolocalized
-*** Post-Sale
+*** Client Meetings
+*** Sandbox Setup
+**** CANC [#1] Setup sandbox account for Rally
+CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
+*** Answering questions
+**** DONE Russ needs time estimate confirmation                :Blackbaud:
+CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
+**** done [#1] (Olivier) Russ needs information about the Prep Kit setup :Blackbaud:
+CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
+**** done [#2] Respond to Paypal's questions on feature requests :Paypal:
+CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
+**** WAIT [#2] Workbench only installation setup for Russ      :Blackbaud:
+Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
+***** DONE [#2] Get Admin Access to the Globalyzer Server     :Blackbaud:
+CLOSED: [2015-11-10 Tue 11:21]
+**** TODO [#2] Write up installation details for Robert West        :Esri:
+*** Video
+**** TODO [#3] Demo Video for whole suite.
+***** TODO [#3] Give out Deadline for demo video
+DEADLINE: <2015-11-13 Fri>
+***** DONE [#1] Buy Microphone on Amazon
+CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
+*** Does User Facing
+*** Clients
+**** Amex
+**** Air Watch (Owned by VmWare)
+***** Need
+****** Training
+****** Code 18n (Globalyzer)
+****** ?
+***** Use
+****** Languages:
+******* Java (Android), Csharp, IOS (Objective C?, Swift?)
+****** WorldServer for Translation
+**** VmWare
+** Post-Sale
+*** Pilot setup
+*** Install and config
+*** Rule set config
+*** LRM on-boarding
+*** Follow-up
+*** Lingotech Support
+*** Customer Satisfaction
+*** Clients
 **** Esri
-**** EMC
-***** TODO [#2] Attend Meetings
+**** Blackboard
+**** Intuit
 **** Blackboad
 ****** Net 
 ***** DONE Russ/Blackbaud
@@ -316,3 +302,16 @@ CLOSED: [2015-11-04 Wed 17:22]
 DEADLINE: <2015-11-16 Mon>
 - [ ] Globalyzer (Lite?)
 - [ ] LRM
+**** EMC
+***** TODO [#2] Attend Meetings
+** Communication
+*** Internal
+**** DONE [#5] Confirm signature with Adam
+CLOSED: [2015-11-07 Sat 14:59]
+**** TODO [#3] Ask Adam about what I can/can't disclose. NDA stuff.
+***** TODO [#3] Populate a list of things that I might want to disclose.
+*** Drive request channelling
+*** 2pm Friday
+*** DONE [#1] Setup email signature
+CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
+** TODO [#2] Look into stack installer                      :status meeting:
