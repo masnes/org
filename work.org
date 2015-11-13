@@ -243,6 +243,7 @@ CLOSED: [2015-11-12 Thu 10:11]
 **** TODO [#4] Demo Video for whole suite.
 ***** TODO [#4] Give out Deadline for demo video         :status meeting:
 DEADLINE: <2015-11-13 Fri>
+Time guestimate: 30 hours net.
 ***** DONE [#1] Buy Microphone on Amazon
 CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 *** Does User Facing
