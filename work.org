@@ -57,6 +57,8 @@ CLOSED: [2015-11-13 Fri 18:23]
 CLOSED: [2015-11-13 Fri 18:23]
 *** regi [#4] Document requirements on testlink.
 *** TODO [#5] Put licenses on wiki.
+*** TODO [#3] Tell John how available I'll be / when I can do his work
+DEADLINE: <2015-11-16 Mon>
 ** Misc
 *** DONE [#3] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
