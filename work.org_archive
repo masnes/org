@@ -14,3 +14,130 @@ CLOSED: [2015-10-27 Tue 11:57]
 :ARCHIVE_TODO: CANCELED
 :END:
 This may not have been clear to Michael Chen
+
+* DONE [#1] [8/8] Get Lite release ready                          :status meeting:
+CLOSED: [2015-11-13 Fri 14:07]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-13 Fri 18:25
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+** DONE [#1] [0/0] Look into lite eclipse click-ability     :status meeting:
+CLOSED: [2015-10-27 Tue 18:43] :LOGBOOK: CLOCK: [2015-10-27 Tue 17:32]--[2015-10-27 Tue 17:32] =>  0:00
+** DONE [#3] [1/1] Improve error messages (up to another day of time commitment is acceptable)
+CLOSED: [2015-11-04 Wed 12:52]
+*** DONE [#3] Go over error messages with Regina
+CLOSED: [2015-11-04 Wed 12:52]
+** DONE [#1] [5/5] ErrorLinkyThing/ClickableConsole 
+CLOSED: [2015-11-04 Wed 15:46]
+*** DONE [#1] [1/1] Package up Lite with ErrorLinkyThing for Regina's testing.
+CLOSED: [2015-10-30 Fri 15:16]
+**** DONE [#2] When ready, deal with licensing setup for ErrorLinkyThing.
+CLOSED: [2015-10-29 Thu 13:05]
+*** DONE [#1] Commit updated plugin changes to Lingoport owned github..
+CLOSED: [2015-10-30 Fri 15:42] DEADLINE: <2015-10-30 Fri>
+**** DONE [#1] Share github repo with lp_? linda, lori, olivier
+CLOSED: [2015-11-02 Mon 
+0:46]
+*** DONE [#1] Remove debug messages
+CLOSED: [2015-11-02 Mon 17:06]
+*** done [#1] [2/2] Test that ClickableConsole works for Relevant version of:
+CLOSED: [2015-11-09 Mon 14:02]
+**** done Eclipse 
+CLOSED: [2015-11-04 Wed 15:46]
+**** done Java (7 and 8)
+CLOSED: [2015-11-04 Wed 15:46]
+*** DONE [#1] Check in about what plugin details we want to change for ErrorLinkyThing, then change them
+CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
+** DONE [#4] [5/5] Pre-release licensing stuff for Lite
+CLOSED: [2015-11-11 Wed 19:14]
+*** DONE [#2] Licenses retrieved for all but a few
+*** DONE [#2] Check up on a last few difficult licenses
+CLOSED: [2015-10-29 Thu 12:57]
+:LOGBOOK:
+CLOCK: [2015-10-29 Thu 12:53]--[2015-10-29 Thu 12:57] =>  0:04
+CLOCK: [2015-10-29 Thu 12:07]--[2015-10-29 Thu 12:18] =>  0:11
+:END:
+*** DONE [#2] Put the licenses somewhere.
+*** DONE [#2] Insure all links to licenses work.
+CLOSED: [2015-10-29 Thu 12:52]
+:LOGBOOK:
+CLOCK: [2015-10-29 Thu 12:42]--[2015-10-29 Thu 12:52] =>  0:10
+CLOCK: [2015-10-29 Thu 12:37]--[2015-10-29 Thu 12:40] =>  0:03
+:END:
+*** DONE [#2] Putting the Lingoport license in with Lite
+CLOSED: [2015-11-02 Mon 17:19]
+**** DONE [#2] Need some license changes confirmed
+CLOSED: [2015-11-02 Mon 17:07]
+**** CANC [#2] Link to the open source licenses from the license file.
+CLOSED: [2015-11-02 Mon 17:07]
+***** No link necessary. I did mention their relative location though.
+**** DONE [#3] Confirm naming / directory conventions.
+CLOSED: [2015-11-03 Tue 10:19]
+***** DONE [#3] Put everything in a "license" directory
+CLOSED: [2015-11-03 Tue 16:42]
+*** CANC [#1] Put Lite's License up on our website (somewhere?)
+CLOSED: [2015-11-06 Fri 14:07] DEADLINE: <2015-11-06 Fri>
+** CANC [#3] [1/1] Junit                                    :status meeting:
+CLOSED: [2015-11-04 Wed 10:52]
+*** DONE [#1] Some tests fail.
+CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
+This is due to lagging behind current refactoring. It doesn't indicate a program
+problem. However, I should still probably refactor these.
+*** CANC [#3] Add more coverage.
+CLOSED: [2015-11-04 Wed 10:52]
+** DONE [#3] Refactor eclipse-standard location
+CLOSED: [2015-11-03 Tue 16:13] DEADLINE: <2015-11-03 Tue>
+*** DONE [#1] Remove eclipse-enhanced, intellij, just use gnu (Update bug (5160?) with latest changes)
+CLOSED: [2015-11-03 Tue 20:07]
+** DONE [#1] [3/3] Internal Docs                            :status meeting:
+CLOSED: [2015-11-12 Thu 14:07]
+*** done [#2] Regina's doc updates
+CLOSED: [2015-10-30 Fri 15:02]
+**** DONE [#1] Proof new version
+CLOSED: [2015-10-30 Fri 18:11]
+***** DONE [#2] Verify that there aren't other tweaks that Regina isn't aware of
+CLOSED: [2015-10-30 Fri 18:11]
+*** DONE [#1] Update --console-output "eclipse" eclipse screenshot.
+CLOSED: [2015-11-02 Mon 17:47]
+*** CANC [#1] Make the distinction between ScanSelectedItem and ScanParentDirectory clearer
+CLOSED: [2015-10-27 Tue 11:57]
+This may not have been clear to Michael Chen
+*** DONE [#1] [9/9] Document use of plugin for Lite
+CLOSED: [2015-11-12 Thu 14:07] DEADLINE: <2015-11-06 Fri>
+**** DONE [#3] Change Plugin Name
+CLOSED: [2015-10-29 Thu 20:44] DEADLINE: <2015-10-29 Thu>
+**** DONE [#1] Get the Plugin Working Again! 
+CLOSED: [2015-10-30 Fri 13:08]
+see: http://www.vogella.com/tutorials/EclipsePlugIn/article.html#deployplugin_overview
+https://stackoverflow.com/questions/582391/installing-eclipse-3-4-plugins-in-a-directory-other-than-eclipse-home-plugins/582430#582430
+**** DONE [#1] Double check that the new README is correct.
+CLOSED: [2015-11-02 Mon 17:08]
+**** DONE [#2] Look through help pages that aren't "globalyzer-lite-IDE-usage.html"
+CLOSED: [2015-11-03 Tue 20:07]
+**** DONE [#1] Re-doc change from eclipse-enhanced to gnu
+CLOSED: [2015-11-04 Wed 15:47]
+**** DONE [#1] Review Regina's changes
+CLOSED: [2015-11-04 Wed 19:32]
+**** DONE [#1] Re-Merge my changes with Regina's
+CLOSED: [2015-11-04 Wed 19:32]
+**** DONE [#1] Check that the Docs contains links to the demo videos
+CLOSED: [2015-11-10 Tue 18:18]
+**** DONE [#1] Doc review session. Need to fix merge stuff.
+CLOSED: [2015-11-11 Wed 18:43] SCHEDULED: <2015-11-09 Mon 15:00>
+** DONE [#2] [0/0] Add missing "intellij_IDEA" option.
+CLOSED: [2015-10-30 Fri 19:41] DEADLINE: <2015-10-30 Fri>
+** DONE [#1] [2/2] Any release Wrap up
+CLOSED: [2015-11-13 Fri 14:07]
+*** DONE [#1] Check organizations of files for unzipped jar file
+CLOSED: [2015-11-12 Thu 14:07]
+*** DONE [#1] [2/2] Confirm no bugs
+CLOSED: [2015-11-13 Fri 14:07]
+**** DONE [#1] Fix exit on scan failure bug
+CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
+**** DONE [#1] Find and fig O's mystery nothing found bug.
+CLOSED: [2015-11-11 Wed 18:47]
+**** CANC [#1] Fix O's mystery nothing found bug
+CLOSED: [2015-11-12 Thu 10:04] (Was not actually a bug - just rule set configuration)
