@@ -12,10 +12,11 @@
 CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
 ***** Mention that developers must manually insert "// $NON-NLS-L$
 *** Product team meeting
-**** regi [#1] Olivier's list of things that need to happen prior to release
+**** DONE [#1] Olivier's list of things that need to happen prior to release
+CLOSED: [2015-11-16 Mon 09:36]
 O's notes for Tue Nov 3:
 11/10/2015
-- [-] 4.8.5 Lite Release [16/17]
+- [X] 4.8.5 Lite Release [17/17]
   - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
   - [X] Finalize JUnits
   - [X] Remove the "Eclipse-Enhanced"  option: gnu
@@ -32,7 +33,7 @@ O's notes for Tue Nov 3:
   - [X] RELEASE HAPPENS HERE!
   - [X] POST RELEASE!      
   - [X] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
-  - [ ] 5) Regina points the tests back to trunk (not 4.8.5)
+  - [X] 5) Regina points the tests back to trunk (not 4.8.5)
 ** Nov 9th
 *** Company Meeting
 *** Product Team Meeting
