@@ -116,21 +116,21 @@ Dashboard -> Project (not javademo)
 **** CANC [#1] Setup sandbox account for Rally
 CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
 *** Answering questions
-**** DONE Russ needs time estimate confirmation                :Blackbaud:
+**** DONE Russ needs time estimate confirmation                              :Blackbaud:
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
-**** done [#1] (Olivier) Russ needs information about the Prep Kit setup :Blackbaud:
+**** done [#1] (Olivier) Russ needs information about the Prep Kit setup     :Blackbaud:
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
-**** done [#2] Respond to Paypal's questions on feature requests :Paypal:
+**** done [#2] Respond to Paypal's questions on feature requests             :Paypal:
 CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
-**** WAIT [#2] Workbench only installation setup for Russ      :Blackbaud:
+**** WAIT [#2] Workbench only installation setup for Russ                    :Blackbaud:
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
-***** DONE [#2] Get Admin Access to the Globalyzer Server     :Blackbaud:
+***** DONE [#2] Get Admin Access to the Globalyzer Server                   :Blackbaud:
 CLOSED: [2015-11-10 Tue 11:21]
-**** DONE [#2] Write up installation details for Robert West        :Esri:
+**** DONE [#2] Write up installation details for Robert West                 :Esri:
 CLOSED: [2015-11-12 Thu 10:11]
 *** Video
 **** TODO [#4] Demo Video for whole suite.
-***** WAIT [#4] Give out Deadline for demo video         :status meeting:
+***** WAIT [#4] Give out Deadline for demo video                            :status meeting:
 Time guestimate: 20-30 hours net.
 ***** DONE [#1] Buy Microphone on Amazon
 CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
@@ -150,36 +150,49 @@ CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 ****** WorldServer for Translation
 **** VmWare
 ** Post-Sale
-*** Pilot setup
-*** Install and config
-*** Rule set config
-*** LRM on-boarding
-*** Follow-up
-*** Lingotech Support
-*** Customer Satisfaction
-*** Clients
-**** Esri
-**** Blackboard
-****** Net 
-**** Intuit
-**** Blackbaud [3/4]
-***** DONE Email Russ requesting
+*** Pilot initialization
+**** done [#1] Need a username (masnes, olibouban)                           :Intuit:
+CLOSED: [2015-11-13 Fri 18:31]
+**** WAIT [#2] [0/2] Help John get Jenkins setup w                              :Intuit:
+DEADLINE: <2015-11-16 Mon>
+- [ ] Globalyzer (Lite?)
+- [ ] LRM
+**** DONE Email Russ requesting                                              :Blackbaud:
 CLOSED: [2015-11-04 Wed 15:29]
 - TFS repo access
 - GUI vpn connection
 - Any other reqs
 - Nomachine / esri setup
-***** DONE Read about CLDR
-CLOSED: [2015-11-04 Wed 17:22]
-***** CANC [#2] Email Russ to check in                        :Blackbaud:
+**** CANC [#2] Email Russ to check in                                        :Blackbaud:
 CLOSED: [2015-11-13 Fri 10:58]
-***** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud -- Most Important
+*** Pilot setup
+*** Install and config
+**** TODO Re use headless installation files to whatever degree possible.
+Make them as generalized as possible
+**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud                 :Blackbaud:
+:PROPERTIES:
+:Effort:
+:END:
 Waiting on Russ's LDAP access 
 - Their vendor is OnePlanet
   - Control.xml (gives metadata to OnePlanet)
-****** WAIT [#2] Follow Instructions From Doc that Andrew sent
-****** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
+***** WAIT [#2] Follow Instructions From Doc that Andrew sent
+***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
+*** Rule set config
+*** LRM on-boarding
+*** Follow-up
+*** Lingotech Support
+*** Customer Satisfaction
+*** Misc
+**** DONE Read about CLDR                                                    :Blackbaud:
+CLOSED: [2015-11-04 Wed 17:22]
+*** Client notes
+**** Esri
+**** Blackboard
+****** Net 
+**** Intuit
+**** Blackbaud
 **** Intuit
 ***** Meeting w/ John O'Conner.
 - Sort of gave up on build integration of Globalyzer. John still has a team working on something similar.
@@ -198,12 +211,6 @@ CLOSED: [2015-11-12 Thu 10:07]
 - John's interaction with developers:
   - Really annoyed with his developers.
   - Doesn't have much power over the developers.
-****** done [#1] Need a username (masnes, olibouban)
-CLOSED: [2015-11-13 Fri 18:31]
-****** WAIT [#2] [0/2] Help John get Jenkins setup w/  
-DEADLINE: <2015-11-16 Mon>
-- [ ] Globalyzer (Lite?)
-- [ ] LRM
 **** EMC
 ***** TODO [#2] Attend Meetings
 ** Communication
