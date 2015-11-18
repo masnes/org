@@ -141,3 +141,181 @@ CLOSED: [2015-11-06 Fri 16:41] DEADLINE: <2015-11-06 Fri>
 CLOSED: [2015-11-11 Wed 18:47]
 **** CANC [#1] Fix O's mystery nothing found bug
 CLOSED: [2015-11-12 Thu 10:04] (Was not actually a bug - just rule set configuration)
+
+* DONE [#1] Olivier's list of things that need to happen prior to release
+CLOSED: [2015-11-16 Mon 09:36]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:06
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Weekly's/Nov 2nd/Product team meeting
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+O's notes for Tue Nov 3:
+11/10/2015
+- [X] 4.8.5 Lite Release [17/17]
+  - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
+  - [X] Finalize JUnits
+  - [X] Remove the "Eclipse-Enhanced"  option: gnu
+  - [X] 0) Regina to test with Java 7 on 4.5  
+  - [X] 1) Regina updates the docs for the Clickable Console
+  - [X] 1) Michael checks for the documentation coherence
+  - [X] (NEW) Review edits to documentation usage
+  - [X] 2) Regina updates the docs with the supported versions
+  - [X] 3) Michael & Regina to go over error messages
+  - [X] (NEW) Any last bugs fixed
+  - [X] (NEW) Michael proofs Regina's updates to the README
+  - [X] 4) Regina send Green Light Email
+  - [X] 5) O pushes the files on the installers & Let Adam know so he can PR
+  - [X] RELEASE HAPPENS HERE!
+  - [X] POST RELEASE!      
+  - [X] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
+  - [X] 5) Regina points the tests back to trunk (not 4.8.5)
+
+* DONE [#1] Send Lori link to Lite videos (Mainly VS)
+CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:06
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Weekly's/Nov 2nd/Company Meeting
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* Mention that developers must manually insert "// $NON-NLS-L$
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:06
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Weekly's/Nov 2nd/Company Meeting
+:ARCHIVE_CATEGORY: work
+:END:
+
+* Net 
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:07
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Post-Sale/Client notes/Blackboard
+:ARCHIVE_CATEGORY: work
+:END:
+
+* Oct 23rd
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:07
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Weekly's
+:ARCHIVE_CATEGORY: work
+:END:
+** O Weekly Agenda
+*** See Globalyzer Lite
+
+* Nov 2nd
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:07
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Weekly's
+:ARCHIVE_CATEGORY: work
+:END:
+** Company Meeting
+*** DONE [#1] Send Lori link to Lite videos (Mainly VS)
+CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
+**** Mention that developers must manually insert "// $NON-NLS-L$
+** Product team meeting
+*** DONE [#1] Olivier's list of things that need to happen prior to release
+CLOSED: [2015-11-16 Mon 09:36]
+O's notes for Tue Nov 3:
+11/10/2015
+- [X] 4.8.5 Lite Release [17/17]
+  - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
+  - [X] Finalize JUnits
+  - [X] Remove the "Eclipse-Enhanced"  option: gnu
+  - [X] 0) Regina to test with Java 7 on 4.5  
+  - [X] 1) Regina updates the docs for the Clickable Console
+  - [X] 1) Michael checks for the documentation coherence
+  - [X] (NEW) Review edits to documentation usage
+  - [X] 2) Regina updates the docs with the supported versions
+  - [X] 3) Michael & Regina to go over error messages
+  - [X] (NEW) Any last bugs fixed
+  - [X] (NEW) Michael proofs Regina's updates to the README
+  - [X] 4) Regina send Green Light Email
+  - [X] 5) O pushes the files on the installers & Let Adam know so he can PR
+  - [X] RELEASE HAPPENS HERE!
+  - [X] POST RELEASE!      
+  - [X] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
+  - [X] 5) Regina points the tests back to trunk (not 4.8.5)
+
+* DONE [#2] [3/3] Look into lite encoding handing for UTF-16BE_NO_BOM
+CLOSED: [2015-11-03 Tue 20:13]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:07
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite/Misc
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+** DONE [#1] Remind Mary
+CLOSED: [2015-10-30 Fri 15:09] DEADLINE: <2015-10-30 Fri>
+:LOGBOOK:
+CLOCK: [2015-10-30 Fri 15:06]--[2015-10-30 Fri 15:09] =>  0:03
+:END:
+Mary said that it's a good feature request. But didn't imply that it was a 
+release showstopper.
+** DONE [#2] Get final confirmation from O that it's ok to release with said problem.
+CLOSED: [2015-11-02 Mon 10:47]
+** DONE [#2] Add to bugzilla.
+CLOSED: [2015-11-03 Tue 20:13]
+
+* DONE [#5] Confirm signature with Adam
+CLOSED: [2015-11-07 Sat 14:59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:09
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Communication/Internal
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#1] Setup email signature
+CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:09
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Communication
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#4] [1/1] Merge 4.8.5 into master. (Tell Regina first).
+CLOSED: [2015-11-13 Fri 18:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:09
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite/Lite post release
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+** DONE [#4] Send mail to everyone post-merge
+CLOSED: [2015-11-13 Fri 18:23]
+
+* done [#5] Show kent grave sandbox pseudoloc.
+CLOSED: [2015-11-09 Mon 14:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-17 Tue 10:09
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Client Demos
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: done
+:END:
+Ww-java -> commits -> lingoport pseudoloc automation.
+    showing a commit (show this if he's more technical)
+Say that you can configure
+- Length
+- Brackets
+- Characters on different unicode bit-plains.
+or
+(if he's less technical)
+Dashboard -> Project (not javademo) 
+          -> issues 
+          -> find issue
+          -> components 
+          -> ctrl-f locales 
+          -> any one of them will have issues in eo, pseudolocalized

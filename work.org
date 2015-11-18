@@ -3,37 +3,6 @@
 #+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) | DONE(d) CANC(c)
 #+TODO: oliv(o) mary(m) regi(r) lind(i) lori(c) adam(a) nina(n) | done(q)
 * Weekly's
-** Oct 23rd
-*** O Weekly Agenda
-**** See Globalyzer Lite
-** Nov 2nd
-*** Company Meeting
-**** DONE [#1] Send Lori link to Lite videos (Mainly VS)
-CLOSED: [2015-11-02 Mon 16:31] DEADLINE: <2015-11-02 Mon>
-***** Mention that developers must manually insert "// $NON-NLS-L$
-*** Product team meeting
-**** DONE [#1] Olivier's list of things that need to happen prior to release
-CLOSED: [2015-11-16 Mon 09:36]
-O's notes for Tue Nov 3:
-11/10/2015
-- [X] 4.8.5 Lite Release [17/17]
-  - [X] Attributes of the jar for the Eclipse Clickable Console Plugin & license directory with EULA + 3rd party stuff
-  - [X] Finalize JUnits
-  - [X] Remove the "Eclipse-Enhanced"  option: gnu
-  - [X] 0) Regina to test with Java 7 on 4.5  
-  - [X] 1) Regina updates the docs for the Clickable Console
-  - [X] 1) Michael checks for the documentation coherence
-  - [X] (NEW) Review edits to documentation usage
-  - [X] 2) Regina updates the docs with the supported versions
-  - [X] 3) Michael & Regina to go over error messages
-  - [X] (NEW) Any last bugs fixed
-  - [X] (NEW) Michael proofs Regina's updates to the README
-  - [X] 4) Regina send Green Light Email
-  - [X] 5) O pushes the files on the installers & Let Adam know so he can PR
-  - [X] RELEASE HAPPENS HERE!
-  - [X] POST RELEASE!      
-  - [X] 4) Michael merges back both the help & code to trunk: & Send mail so M. can double check.
-  - [X] 5) Regina points the tests back to trunk (not 4.8.5)
 ** Nov 9th
 *** Company Meeting
 *** Product Team Meeting
@@ -46,16 +15,12 @@ O's notes for Tue Nov 3:
 - [ ] BB installation
 - [-] Stack Installer - BB harvesting
 - [ ] Wiki License Page
-- [ ] EMC: attend meetings
+- [-] EMC: attend meetings
 - [ ] NetApp: Introduction
 - [ ] Esri
 - [ ] Give a Time Frame for a demo of the Lingoport Suite
 * Globalyzer Lite
 ** Lite post release
-*** DONE [#4] [1/1] Merge 4.8.5 into master. (Tell Regina first).
-CLOSED: [2015-11-13 Fri 18:23]
-**** DONE [#4] Send mail to everyone post-merge
-CLOSED: [2015-11-13 Fri 18:23]
 *** regi [#4] Document requirements on testlink.
 *** TODO [#5] Put licenses on wiki.
 *** TODO [#3] Tell John how available I'll be / when I can do his work
@@ -71,19 +36,6 @@ addScan(@Nonnull Scan scan) {
     }
     m_scans.add(scan
 Answer: It's probably best to throw an error on null, but this is OK.
-*** DONE [#2] [3/3] Look into lite encoding handing for UTF-16BE_NO_BOM
-CLOSED: [2015-11-03 Tue 20:13]
-**** DONE [#1] Remind Mary
-CLOSED: [2015-10-30 Fri 15:09] DEADLINE: <2015-10-30 Fri>
-:LOGBOOK:
-CLOCK: [2015-10-30 Fri 15:06]--[2015-10-30 Fri 15:09] =>  0:03
-:END:
-Mary said that it's a good feature request. But didn't imply that it was a 
-release showstopper.
-**** DONE [#2] Get final confirmation from O that it's ok to release with said problem.
-CLOSED: [2015-11-02 Mon 10:47]
-**** DONE [#2] Add to bugzilla.
-CLOSED: [2015-11-03 Tue 20:13]
 * Misc
 ** TODO [#4] Set better svn password
 * Competitors
@@ -95,22 +47,6 @@ CLOSED: [2015-11-03 Tue 20:13]
 * Sales engineer stuff
 ** Pre-Sale
 *** Client Demos
-**** done [#5] Show kent grave sandbox pseudoloc.
-CLOSED: [2015-11-09 Mon 14:52]
-Ww-java -> commits -> lingoport pseudoloc automation.
-    showing a commit (show this if he's more technical)
-Say that you can configure
-- Length
-- Brackets
-- Characters on different unicode bit-plains.
-or
-(if he's less technical)
-Dashboard -> Project (not javademo) 
-          -> issues 
-          -> find issue
-          -> components 
-          -> ctrl-f locales 
-          -> any one of them will have issues in eo, pseudolocalized
 *** Client Meetings
 *** Sandbox Setup
 **** CANC [#1] Setup sandbox account for Rally
@@ -153,7 +89,7 @@ CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 *** Pilot initialization
 **** done [#1] Need a username (masnes, olibouban)                           :Intuit:
 CLOSED: [2015-11-13 Fri 18:31]
-**** WAIT [#2] [0/2] Help John get Jenkins setup w                              :Intuit:
+**** WAIT [#2] [0/2] Help John get Jenkins setup w                   :Intuit:
 DEADLINE: <2015-11-16 Mon>
 - [ ] Globalyzer (Lite?)
 - [ ] LRM
@@ -169,7 +105,7 @@ CLOSED: [2015-11-13 Fri 10:58]
 *** Install and config
 **** TODO Re use headless installation files to whatever degree possible.
 Make them as generalized as possible
-**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud                 :Blackbaud:
+**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
 :PROPERTIES:
 :Effort:
 :END:
@@ -180,6 +116,9 @@ Waiting on Russ's LDAP access
 ***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
 *** Rule set config
+**** TODO [#2] Ask Robert/Christian/Siva if they're ok with source comments :Esri:
+#ifdef RT_TEST_FRAMEWORK // GLOBALYZER_START_IGNORE
+#endif // RT_TEST_FRAMEWORK GLOBALYZER_END_IGNORE
 *** LRM on-boarding
 *** Follow-up
 *** Lingotech Support
@@ -190,7 +129,6 @@ CLOSED: [2015-11-04 Wed 17:22]
 *** Client notes
 **** Esri
 **** Blackboard
-****** Net 
 **** Intuit
 **** Blackbaud
 **** Intuit
@@ -215,12 +153,8 @@ CLOSED: [2015-11-04 Wed 17:22]
 ***** TODO [#2] Attend Meetings
 ** Communication
 *** Internal
-**** DONE [#5] Confirm signature with Adam
-CLOSED: [2015-11-07 Sat 14:59]
 **** TODO [#4] Ask Adam about what I can/can't disclose. NDA stuff.
 ***** TODO [#4] Populate a list of things that I might want to disclose.
 *** Drive request channelling
 *** 2pm Friday
-*** DONE [#1] Setup email signature
-CLOSED: [2015-11-05 Thu 16:50] DEADLINE: <2015-11-05 Thu>
 ** TODO [#3] Look into stack installer                      :status meeting:
