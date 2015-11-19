@@ -105,7 +105,7 @@ CLOSED: [2015-11-13 Fri 10:58]
 *** Install and config
 **** TODO Re use headless installation files to whatever degree possible.
 Make them as generalized as possible
-**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
+**** WAIT [#2] . [1/2] Setup Workbench installation for Blackbaud :Blackbaud:
 :PROPERTIES:
 :Effort:
 :END:
