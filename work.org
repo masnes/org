@@ -23,8 +23,8 @@
 ** Lite post release
 *** regi [#4] Document requirements on testlink.
 *** TODO [#5] Put licenses on wiki.
-*** TODO [#3] Tell John how available I'll be / when I can do his work
-DEADLINE: <2015-11-16 Mon>
+*** CANC [#3] Tell John how available I'll be / when I can do his work
+CLOSED: [2015-11-19 Thu 13:39] DEADLINE: <2015-11-16 Mon>
 ** Misc
 *** DONE [#3] [0/0] Read more into, ask about design by contract.
 CLOSED: [2015-10-28 Wed 00:33]
@@ -52,21 +52,21 @@ Answer: It's probably best to throw an error on null, but this is OK.
 **** CANC [#1] Setup sandbox account for Rally
 CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
 *** Answering questions
-**** DONE Russ needs time estimate confirmation                              :Blackbaud:
+**** DONE Russ needs time estimate confirmation                                                  :Blackbaud:
 CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
-**** done [#1] (Olivier) Russ needs information about the Prep Kit setup     :Blackbaud:
+**** done [#1] (Olivier) Russ needs information about the Prep Kit setup                         :Blackbaud:
 CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
-**** done [#2] Respond to Paypal's questions on feature requests             :Paypal:
+**** done [#2] Respond to Paypal's questions on feature requests                                 :Paypal:
 CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
-**** WAIT [#2] Workbench only installation setup for Russ                    :Blackbaud:
+**** WAIT [#2] Workbench only installation setup for Russ                                        :Blackbaud:
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
-***** DONE [#2] Get Admin Access to the Globalyzer Server                   :Blackbaud:
+***** DONE [#2] Get Admin Access to the Globalyzer Server                                       :Blackbaud:
 CLOSED: [2015-11-10 Tue 11:21]
-**** DONE [#2] Write up installation details for Robert West                 :Esri:
+**** DONE [#2] Write up installation details for Robert West                                     :Esri:
 CLOSED: [2015-11-12 Thu 10:11]
 *** Video
 **** TODO [#4] Demo Video for whole suite.
-***** WAIT [#4] Give out Deadline for demo video                            :status meeting:
+***** WAIT [#4] Give out Deadline for demo video                                                :status meeting:
 Time guestimate: 20-30 hours net.
 ***** DONE [#1] Buy Microphone on Amazon
 CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
@@ -87,25 +87,25 @@ CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
 **** VmWare
 ** Post-Sale
 *** Pilot initialization
-**** done [#1] Need a username (masnes, olibouban)                           :Intuit:
+**** done [#1] Need a username (masnes, olibouban)                                               :Intuit:
 CLOSED: [2015-11-13 Fri 18:31]
-**** WAIT [#2] [0/2] Help John get Jenkins setup w                   :Intuit:
-DEADLINE: <2015-11-16 Mon>
+**** WAIT [#2] [0/2] Help John get Jenkins setup w                                               :Intuit:
+DEADLINE: <2015-11-24 Tue>
 - [ ] Globalyzer (Lite?)
-- [ ] LRM
-**** DONE Email Russ requesting                                              :Blackbaud:
+- [ ] LRM?
+**** DONE Email Russ requesting                                                                  :Blackbaud:
 CLOSED: [2015-11-04 Wed 15:29]
 - TFS repo access
 - GUI vpn connection
 - Any other reqs
 - Nomachine / esri setup
-**** CANC [#2] Email Russ to check in                                        :Blackbaud:
+**** CANC [#2] Email Russ to check in                                                            :Blackbaud:
 CLOSED: [2015-11-13 Fri 10:58]
 *** Pilot setup
 *** Install and config
 **** TODO Re use headless installation files to whatever degree possible.
 Make them as generalized as possible
-**** WAIT [#2] . [1/2] Setup Workbench installation for Blackbaud :Blackbaud:
+**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud                                  :Blackbaud:
 :PROPERTIES:
 :Effort:
 :END:
@@ -116,7 +116,7 @@ Waiting on Russ's LDAP access
 ***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
 *** Rule set config
-**** TODO [#2] Ask Robert/Christian/Siva if they're ok with source comments :Esri:
+**** TODO [#2] Ask Robert/Christian/Siva if they're ok with source comments in meeting           :Esri:
 #ifdef RT_TEST_FRAMEWORK // GLOBALYZER_START_IGNORE
 #endif // RT_TEST_FRAMEWORK GLOBALYZER_END_IGNORE
 *** LRM on-boarding
@@ -124,7 +124,7 @@ CLOSED: [2015-11-12 Thu 10:07]
 *** Lingotech Support
 *** Customer Satisfaction
 *** Misc
-**** DONE Read about CLDR                                                    :Blackbaud:
+**** DONE Read about CLDR                                                                        :Blackbaud:
 CLOSED: [2015-11-04 Wed 17:22]
 *** Client notes
 **** Esri
@@ -150,11 +150,11 @@ CLOSED: [2015-11-04 Wed 17:22]
   - Really annoyed with his developers.
   - Doesn't have much power over the developers.
 **** EMC
-***** TODO [#2] Attend Meetings
+***** TODO [#3] Attend Meetings
 ** Communication
 *** Internal
 **** TODO [#4] Ask Adam about what I can/can't disclose. NDA stuff.
 ***** TODO [#4] Populate a list of things that I might want to disclose.
 *** Drive request channelling
 *** 2pm Friday
-** TODO [#3] Look into stack installer                      :status meeting:
+** TODO [#3] Look into stack installer                                         :status meeting:
