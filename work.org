@@ -19,6 +19,12 @@
 - [ ] NetApp: Introduction
 - [ ] Esri
 - [ ] Give a Time Frame for a demo of the Lingoport Suite
+** Nov 20th
+*** Company Meeting
+*** My Meeting
+**** [#2] Tell Adam if a client is having a bad experience
+**** [#3] Tell Adam if a client is having a great experience.
+** Clients
 * Globalyzer Lite
 ** Lite post release
 *** regi [#4] Document requirements on testlink.
@@ -158,3 +164,4 @@ CLOSED: [2015-11-04 Wed 17:22]
 *** Drive request channelling
 *** 2pm Friday
 ** TODO [#3] Look into stack installer                                         :status meeting:
+
