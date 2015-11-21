@@ -319,3 +319,182 @@ Dashboard -> Project (not javademo)
           -> components 
           -> ctrl-f locales 
           -> any one of them will have issues in eo, pseudolocalized
+
+* CANC [#1] Setup sandbox account for Rally
+CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Sandbox Setup
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: CANC
+:END:
+
+* DONE Russ needs time estimate confirmation                                                        :Blackbaud:
+CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Answering questions
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* CANC [#1] Setup sandbox account for Rally
+CLOSED: [2015-11-10 Tue 16:22] DEADLINE: <2015-11-10 Tue>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Sandbox Setup
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: CANC
+:END:
+
+* DONE Russ needs time estimate confirmation                                                        :Blackbaud:
+CLOSED: [2015-11-05 Thu 17:54] DEADLINE: <2015-11-05 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Answering questions
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* done [#1] (Olivier) Russ needs information about the Prep Kit setup                               :Blackbaud:
+CLOSED: [2015-11-06 Fri 11:37] DEADLINE: <2015-11-06 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Answering questions
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: done
+:END:
+
+* done [#2] Respond to Paypal's questions on feature requests                                       :Paypal:
+CLOSED: [2015-11-10 Tue 11:20] SCHEDULED: <2015-11-09 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Answering questions
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: done
+:END:
+
+* DONE [#2] Write up installation details for Robert West                                           :Esri:
+CLOSED: [2015-11-12 Thu 10:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Answering questions
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE [#1] Buy Microphone on Amazon
+CLOSED: [2015-11-09 Mon 11:29] DEADLINE: <2015-11-13 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Pre-Sale/Video/Demo Video for whole suite.
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* done [#1] Need a username (masnes, olibouban)                                                     :Intuit:
+CLOSED: [2015-11-13 Fri 18:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Post-Sale/Pilot initialization
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: done
+:END:
+
+* DONE Email Russ requesting                                                                        :Blackbaud:
+CLOSED: [2015-11-04 Wed 15:29]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:29
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Post-Sale/Pilot initialization
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+- TFS repo access
+- GUI vpn connection
+- Any other reqs
+- Nomachine / esri setup
+
+* CANC [#2] Email Russ to check in                                                                  :Blackbaud:
+CLOSED: [2015-11-13 Fri 10:58]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:30
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Post-Sale/Pilot initialization
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: CANC
+:END:
+
+* DONE Read about CLDR                                                                              :Blackbaud:
+CLOSED: [2015-11-04 Wed 17:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:30
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Sales engineer stuff/Post-Sale/Misc
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+
+* regi [#4] Document requirements on testlink.
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:38
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite/Lite post release
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: regi
+:END:
+
+* CANC [#3] Tell John how available I'll be / when I can do his work
+CLOSED: [2015-11-19 Thu 13:39] DEADLINE: <2015-11-16 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:38
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite/Lite post release
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: CANC
+:END:
+
+* DONE [#3] [0/0] Read more into, ask about design by contract.
+CLOSED: [2015-10-28 Wed 00:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:38
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite/Misc
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: DONE
+:END:
+Ok that this setter-ish-thing doesn't accept null?
+ProjectDetails.java:227 
+addScan(@Nonnull Scan scan) { 
+    if (scan == null) {
+        return;
+    }
+    m_scans.add(scan
+Answer: It's probably best to throw an error on null, but this is OK.
+
+* Misc
+:PROPERTIES:
+:ARCHIVE_TIME: 2015-11-20 Fri 15:38
+:ARCHIVE_FILE: ~/org/work.org
+:ARCHIVE_OLPATH: Globalyzer Lite
+:ARCHIVE_CATEGORY: work
+:END:
+** DONE [#3] [0/0] Read more into, ask about design by contract.
+CLOSED: [2015-10-28 Wed 00:33]
+Ok that this setter-ish-thing doesn't accept null?
+ProjectDetails.java:227 
+addScan(@Nonnull Scan scan) { 
+    if (scan == null) {
+        return;
+    }
+    m_scans.add(scan
+Answer: It's probably best to throw an error on null, but this is OK.
