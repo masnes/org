@@ -17,7 +17,7 @@
 ***** Esri
 ***** Intuit
 ***** NetApp
-*** TODO [#1] [1/5] Weekly Agenda Checklist 
+*** TODO [#1] [1/5] Weekly Agenda Checklist
 - [X] Lite out
   - [X] HTML Last pass for IDE usage page
   - [X] Exit error code bug fixed
@@ -34,6 +34,8 @@
 - [ ] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
 - [ ] Uninstaller
 ** TODO [#2] Test stack installer                                                                  :status meeting:
+** Security
+*** TODO [#2] Check admin password for the sandbox
 * Sales engineer stuff
 ** Pre-Sale
 *** Client Demos
@@ -51,7 +53,7 @@ Time guestimate: 20-30 hours net.
 *** User Facing
 ** Post-Sale
 *** Pilot initialization
-**** WAIT [#2] [0/2] Help John get Jenkins setup w                                               :Intuit:
+**** WAIT [#2] [0/2] Help John get Jenkins setup w                   :Intuit:
 DEADLINE: <2015-11-24 Tue>
 - [ ] Globalyzer (Lite?)
 - [ ] LRM?
@@ -59,7 +61,7 @@ DEADLINE: <2015-11-24 Tue>
 *** Install and config
 **** TODO [#1] Re use headless installation files to whatever degree possible.
 Make them as generalized as possible
-**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud                                  :Blackbaud:
+**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
 :PROPERTIES:
 :Effort:
 :END:
