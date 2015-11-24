@@ -33,9 +33,19 @@
 - [ ] Installer : from clean
 - [ ] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
 - [ ] Uninstaller
+** Internet
+*** TODO [#5] Complain to comcast
+Packet transfer is very slow between 68.86.83.77 and 68.86.83.14
 ** TODO [#2] Test stack installer                                                                  :status meeting:
 ** Security
-*** TODO [#2] Check admin password for the sandbox
+*** DONE [#2] Check admin password for the sandbox
+CLOSED: [2015-11-24 Tue 10:50]
+** Rule sets
+*** TODO [#4] Document \A\Z vs ^$
+*** Full paths are required for:
+- Ant file filters
+- String method filters
+- String operand filters
 * Sales engineer stuff
 ** Pre-Sale
 *** Client Demos
@@ -46,6 +56,7 @@
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
 ***** DONE [#2] Get Admin Access to the Globalyzer Server                                       :Blackbaud:
 CLOSED: [2015-11-10 Tue 11:21]
+**** TODO [#2] Ask if ESRI is ok with us copying some code which was problematic for string operand filters :Esri:
 *** Video
 **** TODO [#5] Demo Video for whole suite.
 ***** WAIT [#6] Give out Deadline for demo video                                                :status meeting:
@@ -130,6 +141,9 @@ CLOSED: [2015-11-20 Fri 15:26]
 ** Lite post release
 *** TODO [#5] Put licenses on wiki.
 * Misc
+** PW
+bugzilla
+greengrasshoppereatingicecream
 ** TODO [#4] Set better svn password
 * Competitors
 ** TODO [#6] Populate list
