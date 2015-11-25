@@ -98,7 +98,8 @@ CLOSED: [2015-11-20 Fri 15:26]
 **** TODO [#4] Ask Adam about what I can/can't disclose. NDA stuff.
 ***** TODO [#4] Populate a list of things that I might want to disclose.
 *** Drive request channeling
-**** TODO [#1] Bugzilla enhancement: Quick way to disable most rule sets.
+**** DONE [#1] Bugzilla enhancement: Quick way to disable most rule sets.
+CLOSED: [2015-11-25 Wed 12:32]
 *** 2pm Friday
 ** Client notes
 **** Esri
