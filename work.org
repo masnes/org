@@ -17,6 +17,7 @@
 ***** Esri
 ***** Intuit
 ***** NetApp
+***** HP
 *** TODO [#1] [1/5] Weekly Agenda Checklist
 - [X] Lite out
   - [X] HTML Last pass for IDE usage page
