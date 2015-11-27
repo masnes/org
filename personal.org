@@ -5,7 +5,8 @@ CLOSED: [2015-10-27 Thu 18:44] DEADLINE: <2015-10-28 Wed>
 DEADLINE: <2015-10-28 Wed>
 ** DONE [#A] Meds
 CLOSED: [2015-10-28 Wed 00:50] DEADLINE: <2015-10-27 Tue>
-** TODO [#D] Clean computer screen
+* DONE [#D] Clean computer screen
+CLOSED: [2015-11-26 Thu 22:31]
 ** DONE [#B] Determine suitable Honda Dealer.
 CLOSED: [2015-11-01 Sun 10:30] DEADLINE: <2015-11-01 Sun>
 Fisher Honda.
@@ -42,6 +43,7 @@ CLOSED: [2015-11-08 Sun 19:06] DEADLINE: <2015-11-30 Mon>
 CLOSED: [2015-11-08 Sun 13:00]
 *** DONE [#A] Find it first
 CLOSED: [2015-11-08 Sun 13:00]
+*** TODO [#A] Make dentist appointment
 * Events
 ** DONE [#B] Facebook for campfire
 CLOSED: [2015-10-27 Tue 23:38] DEADLINE: <2015-10-27 Tue>
