@@ -100,6 +100,8 @@ CLOSED: [2015-11-20 Fri 15:26]
 *** Drive request channeling
 **** DONE [#1] Bugzilla enhancement: Quick way to disable most rule sets.
 CLOSED: [2015-11-25 Wed 12:32]
+**** TODO [#1] Note client objections to plain text password. :HP Enterprises: :EMC: 
+**** TODO [#3] Additional, less comprehensive, rule sets with minimal false positives.
 *** 2pm Friday
 ** Client notes
 **** Esri
