@@ -90,6 +90,7 @@ CLOSED: [2015-11-20 Fri 15:26]
 #endif // RT_TEST_FRAMEWORK GLOBALYZER_END_IGNORE
 *** LRM on-boarding
 *** Follow-up
+**** TODO [#2] Send follow up checking to NetApp.
 *** Lingotech Support
 *** Customer Satisfaction
 *** Misc
@@ -150,6 +151,7 @@ CLOSED: [2015-11-25 Wed 12:32]
 bugzilla
 greengrasshoppereatingicecream
 ** TODO [#4] Set better svn password
+** TODO [#2] Get more info on the password policy controls email from Adam
 * Competitors
 ** TODO [#6] Populate list
 - Pasolo
