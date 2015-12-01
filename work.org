@@ -90,7 +90,7 @@ CLOSED: [2015-11-20 Fri 15:26]
 #endif // RT_TEST_FRAMEWORK GLOBALYZER_END_IGNORE
 *** LRM on-boarding
 *** Follow-up
-**** TODO [#2] Send follow up checking to NetApp.
+**** TODO [#2] Send follow up checkin to NetApp.
 *** Lingotech Support
 *** Customer Satisfaction
 *** Misc
