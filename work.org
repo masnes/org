@@ -89,9 +89,6 @@ DEADLINE: <2015-11-24 Tue>
 **** TODO [#1] Re use headless installation files to whatever degree possible.
 Make them as generalized as possible
 **** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
-:PROPERTIES:
-:Effort:
-:END:
 Waiting on Russ's LDAP access 
 - Their vendor is OnePlanet
   - Control.xml (gives metadata to OnePlanet)
