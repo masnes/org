@@ -42,6 +42,9 @@ CLOSED: [2015-12-01 Tue 13:16]
 - [X] Jenkins
 **** TODO [#3] Stretch Goal: Prerequisite installer.
 **** TODO [#4] Password visibility discussion.
+** TODO [#1] Why is john_oconnor@intuit.com in demo mode?
+** TODO [#1] Use gotomeeting next time
+** TODO [#1] Get Jenkins Setup Scripts to the FTP server
 ** Clients
 * Dev
 ** DOIN [#2] Stack installer                                                                       :status meeting:
