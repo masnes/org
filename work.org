@@ -48,6 +48,7 @@ CLOSED: [2015-12-01 Tue 13:16]
 - [ ] Installer : from clean
 - [ ] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
 - [ ] Uninstaller
+*** TODO [#2] Update components (lrm, dashboard-server)
 ** Internet
 *** TODO [#5] Complain to comcast
 Packet transfer is very slow between 68.86.83.77 and 68.86.83.14
