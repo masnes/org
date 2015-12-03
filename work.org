@@ -74,6 +74,7 @@ Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc
 CLOSED: [2015-11-10 Tue 11:21]
 **** DONE [#2] Ask if ESRI is ok with us copying some code which was problematic for string operand filters :Esri:
 CLOSED: [2015-12-01 Tue 10:59]
+*** TODO [#2] Send Tracey example rule set diff
 *** Video
 **** TODO [#5] Demo Video for whole suite.
 ***** WAIT [#6] Give out Deadline for demo video                                                :status meeting:
@@ -182,4 +183,4 @@ greengrasshoppereatingicecream
 - LRM competitor thing
 - Things mentioned by EMC
 - That startup company that wanted to view our demos
-
+- SmartLing
