@@ -29,12 +29,13 @@
 - [ ] NetApp: Introduction
 - [ ] Esri
 ** Nov 30th
-*** [1/4] Stack Installer Work
-**** TODO [#1] [0/4] Refine / Test stack installer with:
-- [ ] Globalyzer Workbench, Lite
-- [ ] Lrm Server
-- [ ] Dashboard Server
-- [ ] Dashboard Client
+*** [2/4] Stack Installer Work
+**** DONE [#1] [4/4] Refine / Test stack installer with:
+CLOSED: [2015-12-04 Fri 13:57]
+- [X] Globalyzer Workbench, Lite
+- [X] Lrm Server
+- [X] Dashboard Server
+- [X] Dashboard Client
 **** DONE [#1] [3/3] Check for:
 CLOSED: [2015-12-01 Tue 13:16]
 - [X] MySQL
@@ -74,7 +75,8 @@ Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc
 CLOSED: [2015-11-10 Tue 11:21]
 **** DONE [#2] Ask if ESRI is ok with us copying some code which was problematic for string operand filters :Esri:
 CLOSED: [2015-12-01 Tue 10:59]
-*** TODO [#2] Send Tracey example rule set diff
+*** DONE [#2] Send Tracey example rule set diff
+CLOSED: [2015-12-04 Fri 13:57]
 *** Video
 **** TODO [#5] Demo Video for whole suite.
 ***** WAIT [#6] Give out Deadline for demo video                                                :status meeting:
