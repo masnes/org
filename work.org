@@ -43,6 +43,33 @@ CLOSED: [2015-12-01 Tue 13:16]
 - [X] Jenkins
 **** TODO [#3] Stretch Goal: Prerequisite installer.
 **** TODO [#4] Password visibility discussion.
+** Dec  4th
+1) Intuit
+> John O'Connor first meeting
+> Follow up on Dec. 4th
+
+2) BB
+> New VPN access as of Dec. 4th
+
+3) Stack Installer
+
+4) NetApp (late night show)
+
+Future Impact, Not a Priority for the upcoming week
+Tibco
+Esri
+Rally
+AD
+*** Company Priorities:
+1. Intuit
+2. Blackbaud
+3. Stack Installer
+4. NetApp (8:30 pm meeting)
+...
+TIBCO
+Esri
+Rally
+AutoDesk
 ** Clients
 * Dev
 ** DOIN [#2] Stack installer                                                                       :status meeting:
@@ -177,8 +204,7 @@ CLOSED: [2015-12-01 Tue 10:59]
 ** PW
 bugzilla
 greengrasshoppereatingicecream
-** TODO [#4] Set better svn password
-** TODO [#2] Get more info on the password policy controls email from Adam
+** TODO [#4] Set better svn password ** TODO [#2] Get more info on the password policy controls email from Adam
 * Competitors
 ** TODO [#6] Populate list
 - Pasolo
