@@ -143,6 +143,7 @@ CLOSED: [2015-11-20 Fri 15:26]
 *** Follow-up
 **** done [#1] Send follow up checkin to NetApp.
 CLOSED: [2015-12-01 Tue 14:13]
+**** TODO [#3] Send John O'Connor notes on what happens next      :Intuit:
 *** Lingotech Support
 *** Customer Satisfaction
 *** Misc
