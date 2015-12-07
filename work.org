@@ -1,6 +1,6 @@
 #+STARTUP: content
 #+PRIORITIES: 1 6 3 
-#+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) | DONE(d) CANC(c)
+#+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) OVER(O) | DONE(d) CANC(c)
 #+TODO: oliv(o) mary(m) regi(r) lind(i) lori(c) adam(a) nina(n) | done(q)
 * Weekly's
 ** Nov 9th
@@ -60,6 +60,10 @@ Tibco
 Esri
 Rally
 AD
+*** OVER [#1] Guide John O'connor from Intuit.                     :Intuit:
+*** WAIT [#2] Start Blackbaud install once server is up         :Blackbaud:
+*** OVER [#3] Work on the stack installer
+*** OVER [#4] NetApp Late Night meeting
 *** Company Priorities:
 1. Intuit
 2. Blackbaud
@@ -131,8 +135,10 @@ Probably the 1 month till bug. Got him out of demo and extended license until De
 CLOSED: [2015-12-02 Wed 17:06]
 **** DONE [#1] Use gotomeeting next time                          :Intuit:
 CLOSED: [2015-12-02 Wed 17:07]
-**** TODO [#1] Get Jenkins Setup Scripts to the FTP server        :Intuit:
-**** DONE [#1] Git Lite put on the FTP server                     :Intuit:
+**** WAIT [#1] Get Jenkins Setup Scripts to the FTP server        :Intuit:
+John wants to be able to do this himself. So guide him through it to the 
+point where he understands.
+**** DONE [#1] Get Lite put on the FTP server                     :Intuit:
 CLOSED: [2015-12-02 Wed 17:07]
 *** Rule set config
 **** DONE [#2] Ask Robert/Christian/Siva if they're ok with source comments in meeting           :Esri:
@@ -143,7 +149,8 @@ CLOSED: [2015-11-20 Fri 15:26]
 *** Follow-up
 **** done [#1] Send follow up checkin to NetApp.
 CLOSED: [2015-12-01 Tue 14:13]
-**** TODO [#3] Send John O'Connor notes on what happens next      :Intuit:
+**** DONE [#3] Send John O'Connor notes on what happens next      :Intuit:
+CLOSED: [2015-12-07 Mon 10:37]
 *** Lingotech Support
 *** Customer Satisfaction
 *** Misc
