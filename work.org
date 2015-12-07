@@ -28,7 +28,7 @@
 - [-] Stack Installer - BB harvesting
 - [ ] NetApp: Introduction
 - [ ] Esri
-** Nov 30th
+** Nov 30th Weekly Meeting
 *** [2/4] Stack Installer Work
 **** DONE [#1] [4/4] Refine / Test stack installer with:
 CLOSED: [2015-12-04 Fri 13:57]
@@ -43,7 +43,7 @@ CLOSED: [2015-12-01 Tue 13:16]
 - [X] Jenkins
 **** TODO [#3] Stretch Goal: Prerequisite installer.
 **** TODO [#4] Password visibility discussion.
-** Dec  4th
+** Dec  4th Weekly Meeting
 1) Intuit
 > John O'Connor first meeting
 > Follow up on Dec. 4th
@@ -74,6 +74,9 @@ TIBCO
 Esri
 Rally
 AutoDesk
+** Dec  7th Company Meeting
+*** TODO [#2] Send Lori Password
+*** TODO [#4] Create email-able regex starter package.
 ** Clients
 * Dev
 ** DOIN [#2] Stack installer                                                                       :status meeting:
