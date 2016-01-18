@@ -3,47 +3,47 @@
 #+TODO: TODO(t) DOIN(D) MYBE(M) WAIT(w) OVER(O) | DONE(d) CANC(c)
 #+TODO: oliv(o) mary(m) regi(r) lind(i) lori(c) adam(a) nina(n) | done(q)
 * Weekly's
-** Nov 9th
-*** Company Meeting
-*** Product Team Meeting
-** Nov 20th
-*** Company Meeting
-*** My Meeting
-**** [#1] Only respond to emails directed at me / from my clients.
-**** [#2] Tell Adam if a client is having a bad experience
-**** [#3] Tell Adam if a client is having a great experience.
-**** Clients I am responsible for:
-***** Blackbaud
-***** Esri
-***** Intuit
-***** NetApp
-***** HP
-*** TODO [#3] [1/5] Weekly Agenda Checklist
-- [X] Lite out
-  - [X] HTML Last pass for IDE usage page
-  - [X] Exit error code bug fixed
-  - [X] Project Path bug figured out
-  - [X] Project Path bug fixed (Not a bug)
-- [ ] BB installation
-- [-] Stack Installer - BB harvesting
-- [ ] NetApp: Introduction
-- [ ] Esri
-** Nov 30th Weekly Meeting
-*** [2/4] Stack Installer Work
-**** DONE [#1] [4/4] Refine / Test stack installer with:
+** Weekly Meeting
+*** Nov 09, 2015
+*** Nov 20, 2015
+*** Nov 30, 2015 Weekly Meeting
+**** [4/6] Stack Installer Work
+***** DONE [#1] [4/4] Refine / Test stack installer with:
 CLOSED: [2015-12-04 Fri 13:57]
 - [X] Globalyzer Workbench, Lite
 - [X] Lrm Server
 - [X] Dashboard Server
 - [X] Dashboard Client
-**** DONE [#1] [3/3] Check for:
+***** DONE [#1] [3/3] Check for:
 CLOSED: [2015-12-01 Tue 13:16]
 - [X] MySQL
 - [X] Java
 - [X] Jenkins
-**** TODO [#3] Stretch Goal: Prerequisite installer.
-**** TODO [#4] Password visibility discussion.
-** Dec  4th Weekly Meeting
+***** DONE [#3] Stretch Goal: Prerequisite installer.
+CLOSED: [2016-01-07 Thu 19:29]
+***** DONE [#4] Password visibility discussion.
+CLOSED: [2015-12-17 Thu 13:05]
+***** TODO [#2] Adapt stack installer feedback from first installation
+- [ ] jq not in package repositories
+- [ ] Use pure regex instead
+- [X] Switch Java Version
+- [X] Move all before-prompt messages to just above the prompt
+- [ ] Jenkins did not start. But service jenkins status showed 4 running instances.
+- [X] Add 'jenkins-initial-config.sh' script after stack-installer.sh
+- [ ] Errors while installing jenkins plugins
+  - [ ] Build User Vars
+  - [ ]
+- [X] Make user restart jenkins
+- [ ] Post-Readme
+  - [ ] Echo every username / password configuration to a file after each is given
+- [-] Readme:
+  - [-] Link to all relevant wiki pages
+    - [X] LRM Onboarding New Projects
+    - [X] Lite general
+    - [ ] Dashboard uploading results
+***** TODO [#3] Stack Installer Check Ports
+Use Olivier's graphic that he sent to Russ as a reference.
+*** Dec 04, 2015 Weekly Meeting
 1) Intuit
 > John O'Connor first meeting
 > Follow up on Dec. 4th
@@ -60,11 +60,12 @@ Tibco
 Esri
 Rally
 AD
-*** OVER [#1] Guide John O'connor from Intuit.                     :Intuit:
-*** WAIT [#2] Start Blackbaud install once server is up         :Blackbaud:
-*** OVER [#3] Work on the stack installer
-*** OVER [#4] NetApp Late Night meeting
-*** Company Priorities:
+**** OVER [#1] Guide John O'connor from Intuit.                   :Intuit:
+**** DONE [#2] Start Blackbaud install once server is up       :Blackbaud:
+CLOSED: [2016-01-12 Tue 10:34]
+**** OVER [#3] Work on the stack installer
+**** OVER [#4] NetApp Late Night meeting
+**** Company Priorities:
 1. Intuit
 2. Blackbaud
 3. Stack Installer
@@ -74,80 +75,134 @@ TIBCO
 Esri
 Rally
 AutoDesk
-** Dec  7th Company Meeting
-*** TODO [#2] Send Lori Password
-*** TODO [#4] Create email-able regex starter package.
+*** JAN 08, 2015
+**** TODO [#1] - [1] Stack Installer Happy Path
+**** TODO [#1] - [2] Autodesk installation wth Stack Installer
+**** TODO [#1] - [3] BB Installation with Stack Installer
+**** TODO [#1] - [4] ESRI Rule Sets
+**** TODO [#1] - [5] AMZN: Lite OK with Ayman
+**** Likely for Week post Jan 18 :
+***** Intuit
+***** AirWatch?
+**** Likely for Week post Jan 25
+***** Perl RS for Amazon
+** Company Meetings
+*** Nov 09, 2015?
+**** My Meeting
+***** [#1] Only respond to emails directed at me / from my clients.
+***** [#2] Tell Adam if a client is having a bad experience
+***** [#3] Tell Adam if a client is having a great experience.
+***** Clients I am responsible for:
+- Blackbaud
+- Esri
+- Intuit
+- NetApp
+- HP
+**** TODO [#3] [3/5] Weekly Agenda Checklist
+- [X] Lite out
+  - [X] HTML Last pass for IDE usage page
+  - [X] Exit error code bug fixed
+  - [X] Project Path bug figured out
+  - [X] Project Path bug fixed (Not a bug)
+- [ ] BB installation
+- [-] Stack Installer - BB harvesting
+- [X] NetApp: Introduction
+- [X] Esri
+*** Nov 20, 2015?
+**** Product Team Meeting
+*** Dec 07, 2015
+**** TODO [#4] Create email-able regex starter package.
+
 ** Clients
 * Dev
 ** DOIN [#2] Stack installer                                                                       :status meeting:
 - [ ] Installer : from clean
 - [ ] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
 - [ ] Uninstaller
-*** TODO [#2] Update components (lrm, dashboard-server)
+*** DONE [#2] Update components (lrm, dashboard-server)
+CLOSED: [2016-01-07 Thu 19:29]
+*** DONE [#2] Fix lrm install bug
+CLOSED: [2016-01-07 Thu 19:29]
+If incorrect credentials are given for an existing MySQL user,
+the install fails. But the user is not given a chance to change these
+credentials.
+
+Fix: force verification of mysql details at beginning of install
+*** DONE [#1] [2/2] Fix up stack installer so it is good to give to O
+CLOSED: [2016-01-07 Thu 19:30]
+
+- [X] Make Readme
+- [X] Fix install-lite.sh '[[' bug
+*** DONE [#1] [0/0] Add jenkins auto-setup part
+CLOSED: [2016-01-11 Mon 10:49]
+*** WAIT [#3] [0/2] Add jenkins auto-unzip
+**** WAIT [#3] Ask about lrm-config job
+**** WAIT [#3] Look into the following files
+- hudson.scm.CVSSCM.xml
+- jenkins.model.JenkinsLocationConfiguration (probably created automatically anyway)
+- secret.key / secret.key.not-so-secret
+- .netrc
+- .owner
+- Lingoport_Data/L10nStreamlining/SVNFTP/projects/com.lingoport.lrmprocess/config/config_email_recipients.xml
+- jobs/lrm-server-2.2
+- /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/project_definitions/ProjectDefinition.xml
+- /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/users/admin/config.xml
 ** Internet
 *** TODO [#5] Complain to comcast
 Packet transfer is very slow between 68.86.83.77 and 68.86.83.14
 ** TODO [#2] Test stack installer                                                                  :status meeting:
 ** Security
-*** DONE [#2] Check admin password for the sandbox
-CLOSED: [2015-11-24 Tue 10:50]
+*** TODO [#3] Double check all admin passwords
 ** Rule sets
 *** TODO [#4] Document \A\Z vs ^$
 *** Full paths are required for:
 - Ant file filters
 - String method filters
 - String operand filters
+** Globalyzer Lite
+*** Lite post release
+**** TODO [#4] Put licenses on wiki.
+**** CANC [#1] Swap saxon licenses with xamal ones
+CLOSED: [2015-12-28 Mon 14:00]
+**** TODO [#1] Encorporate Mary's new API changes into Lite.
 * Sales engineer stuff
 ** Pre-Sale
 *** Client Demos
 *** Client Meetings
 *** Sandbox Setup
 *** Answering questions
-**** WAIT [#2] Workbench only installation setup for Russ                                        :Blackbaud:
+**** TODO [#2] Workbench only installation setup for Russ      :Blackbaud:
 Use it doc at https://docs.google.com/document/d/1TFtXLVwBrnN6b_MgQOdY_2-FyA2wtc6noKcYem4I0l4
 ***** DONE [#2] Get Admin Access to the Globalyzer Server                                       :Blackbaud:
 CLOSED: [2015-11-10 Tue 11:21]
-**** DONE [#2] Ask if ESRI is ok with us copying some code which was problematic for string operand filters :Esri:
-CLOSED: [2015-12-01 Tue 10:59]
-*** DONE [#2] Send Tracey example rule set diff
-CLOSED: [2015-12-04 Fri 13:57]
 *** Video
 **** TODO [#5] Demo Video for whole suite.
 ***** WAIT [#6] Give out Deadline for demo video                                                :status meeting:
 Time guestimate: 20-30 hours net.
 *** User Facing
 ** Post-Sale
+*** Additional Demos
+*** TODO [#1] When on call with client. If a product improvement issue comes up
+Make sure to take lots of notes about the issue
+- Why can't they use the current solution?
+- What is the use case (user story)
+- What is the priority (urgent? did we promise? is 3-6months ok?)
+- We are always booked for product dev for next 4 months
 *** Pilot initialization
-**** WAIT [#2] [0/2] Help John get Jenkins setup w                   :Intuit:
+**** DOIN [#2] [1/2] Help John get Jenkins setup w                   :Intuit:
 DEADLINE: <2015-11-24 Tue>
-- [ ] Globalyzer (Lite?)
+- [X] Globalyzer (Lite?)
 - [ ] LRM?
 *** Pilot setup
 *** Install and config
-**** TODO [#1] Re use headless installation files to whatever degree possible.
-Make them as generalized as possible
-**** WAIT [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
+**** TODO [#2] [1/2] Setup Workbench installation for Blackbaud   :Blackbaud:
 Waiting on Russ's LDAP access 
 - Their vendor is OnePlanet
   - Control.xml (gives metadata to OnePlanet)
-***** WAIT [#2] Follow Instructions From Doc that Andrew sent
+***** TODO [#2] Follow Instructions From Doc that Andrew sent
 ***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
-**** DONE [#1] Why is john_oconnor@intuit.com in demo mode?       :Intuit:
-Probably the 1 month till bug. Got him out of demo and extended license until Dec 17 2016
-CLOSED: [2015-12-02 Wed 17:06]
-**** DONE [#1] Use gotomeeting next time                          :Intuit:
-CLOSED: [2015-12-02 Wed 17:07]
-**** WAIT [#1] Get Jenkins Setup Scripts to the FTP server        :Intuit:
-John wants to be able to do this himself. So guide him through it to the 
-point where he understands.
-**** DONE [#1] Get Lite put on the FTP server                     :Intuit:
-CLOSED: [2015-12-02 Wed 17:07]
 *** Rule set config
-**** DONE [#2] Ask Robert/Christian/Siva if they're ok with source comments in meeting           :Esri:
-CLOSED: [2015-11-20 Fri 15:26]
-#ifdef RT_TEST_FRAMEWORK // GLOBALYZER_START_IGNORE
-#endif // RT_TEST_FRAMEWORK GLOBALYZER_END_IGNORE
 *** LRM on-boarding
 *** Follow-up
 **** done [#1] Send follow up checkin to NetApp.
@@ -162,12 +217,13 @@ CLOSED: [2015-12-07 Mon 10:37]
 **** TODO [#4] Ask Adam about what I can/can't disclose. NDA stuff.
 ***** TODO [#4] Populate a list of things that I might want to disclose.
 *** Drive request channeling
-**** DONE [#1] Bugzilla enhancement: Quick way to disable most rule sets.
-CLOSED: [2015-11-25 Wed 12:32]
-**** DONE [#1] Note client objections to plain text password. :HP Enterprises: :EMC:
-CLOSED: [2015-12-01 Tue 10:59]
-**** DONE [#3] Additional, less comprehensive, rule sets with minimal false positives.
-CLOSED: [2015-12-01 Tue 10:59]
+**** Features
+**** Bugs
+***** DONE [#2] (Lite) Ask about / submit proxy user / proxy password both being necessary
+CLOSED: [2015-12-15 Tue 16:44]
+***** DONE [#4] (Lite) Add ... after "Logging In to Server"
+CLOSED: [2015-12-15 Tue 16:45]
+***** TODO [#4] Look in to users being shoved into demo mode prior to their license expiring.
 *** 2pm Friday
 ** Client notes
 **** Esri
@@ -193,7 +249,8 @@ CLOSED: [2015-12-01 Tue 10:59]
   - Really annoyed with his developers.
   - Doesn't have much power over the developers.
 **** EMC
-***** TODO [#5] Attend Meetings
+***** CANC [#5] Attend Meetings
+CLOSED: [2015-12-17 Thu 11:52]
 ****  Amex
 ****  VmWare
 ****  Air Watch (Owned by VmWare)
@@ -208,18 +265,17 @@ CLOSED: [2015-12-01 Tue 10:59]
        - Csharp, 
        - IOS (Objective C?, Swift?)
      - WorldServer for Translation
-* Globalyzer Lite
-** Lite post release
-*** TODO [#5] Put licenses on wiki.
 * Misc
 ** PW
 bugzilla
 greengrasshoppereatingicecream
-** TODO [#4] Set better svn password ** TODO [#2] Get more info on the password policy controls email from Adam
+** TODO [#4] Set better svn password u
+** DONE [#2] Get more info on the password policy controls email
+Our current password storage method is not sufficient for Rally to be happy
+** TODO [#3] Set up amazon to warn adam when a certain amount of money is spent.
 * Competitors
-** TODO [#6] Populate list
 - Pasolo
-- LRM competitor thing
+- Serge (LRM competitor)
 - Things mentioned by EMC
 - That startup company that wanted to view our demos
 - SmartLing

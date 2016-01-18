@@ -3,16 +3,17 @@
 CLOSED: [2015-10-27 Thu 18:44] DEADLINE: <2015-10-28 Wed>
 ** TODO [#C] Clean room
 DEADLINE: <2015-10-28 Wed>
+:PROPERTIES:
+:Effort:   1:30
+:END:
 ** DONE [#A] Meds
 CLOSED: [2015-10-28 Wed 00:50] DEADLINE: <2015-10-27 Tue>
 * DONE [#D] Clean computer screen
 CLOSED: [2015-11-26 Thu 22:31]
-** DONE [#B] Determine suitable Honda Dealer.
-CLOSED: [2015-11-01 Sun 10:30] DEADLINE: <2015-11-01 Sun>
-Fisher Honda.
-*** TODO [#B] Schedule Appointment with said Honda dealer.
-DEADLINE: <2015-11-17 Tue>
-** TODO [#A] Pick out Coat
+* TODO [#A] Pick out Coat
+:PROPERTIES:
+:Effort:   3:00
+:END:
 :LOGBOOK:
 CLOCK: [2015-11-01 Sun 21:05]
 :END:
@@ -25,6 +26,9 @@ CLOSED: [2015-11-02 Mon 14:07] DEADLINE: <2015-11-01 Sun>
 CLOCK: [2015-11-01 Sun 11:02]--[2015-11-01 Sun 12:30] =>  1:28
 :END:
 ** TODO [#A] Continue looking into finances
+:PROPERTIES:
+:Effort:   5:00
+:END:
 ** TODO [#B] Look into ADU
 ** DONE [#C] Begin research on ADU
 CLOSED: [2015-11-14 Sat 12:12] DEADLINE: <2015-11-05 Thu>
@@ -43,7 +47,52 @@ CLOSED: [2015-11-08 Sun 19:06] DEADLINE: <2015-11-30 Mon>
 CLOSED: [2015-11-08 Sun 13:00]
 *** DONE [#A] Find it first
 CLOSED: [2015-11-08 Sun 13:00]
-*** TODO [#A] Make dentist appointment
+* Sleep
+DLMO (assumed): 12pm. May be anywhere from 11pm to 1:00am.
+Blue Light optimum exposure: 12-18 hours post DLMO
+Use from 1 pm to 5 pm
+- Min  [11 am -  5pm]
+- Max  [ 1 pm -  7pm]
+- Safe [ 1 pm -  5pm]
+Melatonin Optimum exposure: 1-5 post, 12-15 post
+Take after 1am, if awake
+- Not going to use it in the afternoon for now
+- Min  [12 am -  4am], 2 am optimal
+- Max  [ 2 am -  7am], 4 am optimal
+- Safe [ 2 am -  4am]
+* Upkeep
+** DONE [#B] Determine suitable Honda Dealer.
+CLOSED: [2015-11-01 Sun 10:30] DEADLINE: <2015-11-01 Sun>
+Fisher Honda.
+*** DONE [#B] Schedule Appointment with said Honda dealer.
+CLOSED: [2015-12-09 Wed 22:04] DEADLINE: <2015-11-17 Tue>
+** TODO [#A] Make dentist appointment
+:PROPERTIES:
+:Effort:   1:45
+:END:
+** DONE [#A] Schedule physical/doctor check in
+CLOSED: [2015-12-09 Wed 21:54]
+To Discuss:
+- Grumps (and food association)
+- Sleep (See Sleep section)
+  - Over the counter: Valerian Root (GABA), Tryptophan, Melatonin
+  - Prescription:
+    - Ambien (May be of some short term value). Very Bad Long Term
+    - Trazadone (Recommended. 50-150. Technically an SSRI. Effective Long Term).
+- New Inhaler
+- Diet
+- Neck tenderness
+- Mild low back pain
+- Occasional sore eyes on wakeup
+** TODO [#B] See a dietician / start eating healthy
+:PROPERTIES:
+:Effort:   4:30
+:END:
+** TODO [#C] Look into car maintenance from previous owner
+:PROPERTIES:
+:Effort:   0:30
+:END:
+** TODO [#B] Check in about car maintenance light
 * Events
 ** DONE [#B] Facebook for campfire
 CLOSED: [2015-10-27 Tue 23:38] DEADLINE: <2015-10-27 Tue>
@@ -51,3 +100,6 @@ CLOSED: [2015-10-27 Tue 23:38] DEADLINE: <2015-10-27 Tue>
 CLOSED: [2015-10-31 Sat 14:18]
 *** DONE [#A] Buys s'more ingredients
 CLOSED: [2015-11-01 Sun 09:45]
+
+~16 hours of things to do. 4 hours / day of time. 2 hours a day of used time usually
+- so 8 days
