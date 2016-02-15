@@ -1,13 +1,15 @@
-
 * Sales Engineer
 ** DONE [#B] Read more about becoming a sales engineer
 CLOSED: [2015-10-27 Tue 18:43]
 ** DONE [#B] Is it hard to find a good sales engineer? Why?
 CLOSED: [2015-11-01 Sun 13:30]
 ** TODO [#B] Attend some toastmasters chapter meetings at different locations.
+   SCHEDULED: <2016-02-19 Fri 11:30>
 * Software Developer
 * Misc
 ** DONE test CLOSED: [2015-10-17 Sat 01:04]
 ** DONE [#B] Learn org to novice level
 CLOSED: [2015-11-08 Sun 13:00]
 ** TODO [#B] Read https://hbr.org/2005/12/how-to-build-your-network/
+** TODO [#B] Read willpower book
+   SCHEDULED: <2016-02-15 Mon 19:30>

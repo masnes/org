@@ -1,0 +1,10 @@
+* Russ Meeting Agenda
+** Install status
+ - Able to log in to both servers and transfer files over.
+ - (Our complaint): Servers run CentOS. Makes our life difficult. We prefer Ubuntu.
+ - Need port (80) opened from servers so that we can install jenkins.
+   - Ronnie is on this
+ - They may ask about my install status.
+ - Possible, but unlikely:
+   - rootsh is working (rootsh allows me super user privileges, but logs everything I do for their security comfort)
+   - RSA auth is fine (RSA auth is a security safeguard. It proves that I'm connecting to the write server, and that no one is intercepting my connection.). I was worried about it previously.

@@ -1,15 +1,3 @@
-* Chores
-** DONE [#A] Laundry
-CLOSED: [2015-10-27 Thu 18:44] DEADLINE: <2015-10-28 Wed>
-** TODO [#C] Clean room
-DEADLINE: <2015-10-28 Wed>
-:PROPERTIES:
-:Effort:   1:30
-:END:
-** DONE [#A] Meds
-CLOSED: [2015-10-28 Wed 00:50] DEADLINE: <2015-10-27 Tue>
-* DONE [#D] Clean computer screen
-CLOSED: [2015-11-26 Thu 22:31]
 * TODO [#A] Pick out Coat
 :PROPERTIES:
 :Effort:   3:00
@@ -17,6 +5,16 @@ CLOSED: [2015-11-26 Thu 22:31]
 :LOGBOOK:
 CLOCK: [2015-11-01 Sun 21:05]
 :END:
+* Chores
+** DONE [#A] Laundry
+CLOSED: [2015-10-27 Thu 18:44] DEADLINE: <2015-10-28 Wed>
+** TODO [#A] Clean room
+SCHEDULED: <2016-02-16 Tue 19:45> DEADLINE: <2015-10-28 Wed>
+:PROPERTIES:
+:Effort:   1:00
+:END:
+** DONE [#A] Meds
+CLOSED: [2015-10-28 Wed 00:50] DEADLINE: <2015-10-27 Tue>
 * Finances
 ** DONE [#A] Insurance card
 CLOSED: [2015-10-27 Thu 19:56] DEADLINE: <2015-10-27 Tue>
@@ -26,10 +24,22 @@ CLOSED: [2015-11-02 Mon 14:07] DEADLINE: <2015-11-01 Sun>
 CLOCK: [2015-11-01 Sun 11:02]--[2015-11-01 Sun 12:30] =>  1:28
 :END:
 ** TODO [#A] Continue looking into finances
-:PROPERTIES:
-:Effort:   5:00
-:END:
-** TODO [#B] Look into ADU
+   SCHEDULED: <2016-02-16 Tue 19:30>
+  :PROPERTIES:
+  :Effort:   5:00
+  :END:
+*** TODO 401k contrib amount
+
+*** DONE 401k contrib location
+    CLOSED: [2016-02-14 Sun 21:44]
+*** TODO Set up Roth IRA
+*** TODO Move current finances into bond ladder or similar. 
+*** DONE Set up direct deposit
+    CLOSED: [2016-02-14 Sun 21:44]
+*** DONE Estimate future finances
+** DONE [#B] Look into ADU
+   Not doing this.
+   CLOSED: [2016-02-14 Sun 17:39]
 ** DONE [#C] Begin research on ADU
 CLOSED: [2015-11-14 Sat 12:12] DEADLINE: <2015-11-05 Thu>
 * To Remember
@@ -47,7 +57,10 @@ CLOSED: [2015-11-08 Sun 19:06] DEADLINE: <2015-11-30 Mon>
 CLOSED: [2015-11-08 Sun 13:00]
 *** DONE [#A] Find it first
 CLOSED: [2015-11-08 Sun 13:00]
+** TODO [#A] Write Christina's Card
+   SCHEDULED: <2016-02-15 Mon 20:30>
 * Sleep
+
 DLMO (assumed): 12pm. May be anywhere from 11pm to 1:00am.
 Blue Light optimum exposure: 12-18 hours post DLMO
 Use from 1 pm to 5 pm
@@ -60,6 +73,12 @@ Take after 1am, if awake
 - Min  [12 am -  4am], 2 am optimal
 - Max  [ 2 am -  7am], 4 am optimal
 - Safe [ 2 am -  4am]
+* Health
+** DONE [#B] Buy Exercise Clothes
+   CLOSED: [2016-02-14 Sun 18:18] SCHEDULED: <2016-02-14 Sun 18:00>
+   :PROPERTIES:
+   :Effort:   0:30
+   :END:
 * Upkeep
 ** DONE [#B] Determine suitable Honda Dealer.
 CLOSED: [2015-11-01 Sun 10:30] DEADLINE: <2015-11-01 Sun>
@@ -67,6 +86,7 @@ Fisher Honda.
 *** DONE [#B] Schedule Appointment with said Honda dealer.
 CLOSED: [2015-12-09 Wed 22:04] DEADLINE: <2015-11-17 Tue>
 ** TODO [#A] Make dentist appointment
+   SCHEDULED: <2016-02-23 Tue 11:30>
 :PROPERTIES:
 :Effort:   1:45
 :END:
@@ -88,11 +108,16 @@ To Discuss:
 :PROPERTIES:
 :Effort:   4:30
 :END:
-** TODO [#C] Look into car maintenance from previous owner
-:PROPERTIES:
-:Effort:   0:30
-:END:
+** DONE [#C] Look into car maintenance from previous owner
+   Need to do all maintenance. 
+  :CLOSED: [2016-02-14 Sun 16:55]
+  :PROPERTIES:
+  :Effort:   0:30
+  :END:
 ** TODO [#B] Check in about car maintenance light
+   SCHEDULED: <2016-02-15 Mon 11:30>
+** TODO [#A] Get tires rotated
+   SCHEDULED: <2016-02-15 Thu 11:30>
 * Events
 ** DONE [#B] Facebook for campfire
 CLOSED: [2015-10-27 Tue 23:38] DEADLINE: <2015-10-27 Tue>
@@ -103,3 +128,5 @@ CLOSED: [2015-11-01 Sun 09:45]
 
 ~16 hours of things to do. 4 hours / day of time. 2 hours a day of used time usually
 - so 8 days
+* DONE [#D] Clean computer screen
+CLOSED: [2015-11-26 Thu 22:31]

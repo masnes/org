@@ -1,0 +1,13 @@
+* Tasks
+** TODO 
+   SCHEDULED: <2016-02-14 Sun 22:00>
+   [2016-02-14 Sun]
+   [[file:~/org/personal.org::*Clean%20room][Clean room]]
+** DONE 
+   CLOSED: [2016-02-14 Sun 22:13] SCHEDULED: <2016-02-14 Sun 18:30>
+   [2016-02-14 Sun]
+   [[file:~/org/learning.org::*Read%20willpower%20book][Read willpower book]]
+** DONE 
+   CLOSED: [2016-02-14 Sun 18:18] SCHEDULED: <2016-02-14 Sun 18:00>
+   [2016-02-14 Sun]
+   [[file:~/org/personal.org::*Buy%20Exercise%20Clothes][Buy Exercise Clothes]]
