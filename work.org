@@ -151,14 +151,14 @@ CLOSED: [2016-01-11 Mon 10:49]
 - jobs/lrm-server-2.2
 - /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/project_definitions/ProjectDefinition.xml
 - /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/users/admin/config.xml
-*** TODO [#4] Test stack installer                                                                  :status meeting:
+*** WAIT [#4] Test stack installer                                                                  :status meeting:
 ** Internet
 *** CANC [#5] Complain to comcast
     CLOSED: [2016-02-08 Mon 13:37]
     Packet transfer is very slow between 68.86.83.77 and 68.86.83.14
     CANCELED: may be due to my wireless card.
 ** Security
-*** TODO [#3] Double check all admin passwords
+*** WAIT [#3] Double check all admin passwords
 ** Rule sets
 *** WAIT [#4] Document \A\Z vs ^$
 *** Full paths are required for:
@@ -167,8 +167,8 @@ CLOSED: [2016-01-11 Mon 10:49]
 - String operand filters
 ** Globalyzer Lite
 *** TODO [#1] Get Lite v 5.1.x ready for release
-**** TODO [#1] More Unit Tests
 **** TODO [#1] Documentation ready for Amazon
+**** TODO [#2] More Unit Tests
 *** TODO [#2] Put up java proxy settings on wiki.
 *** Lite post release
 **** MYBE [#4] Put licenses on wiki.
@@ -236,8 +236,9 @@ Waiting on Russ's LDAP access
       CLOSED: [2016-02-15 Mon 14:05]
 ***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
-*** TODO [#1] Quadrant Send gzproj, file inspector reports, and lite xml.
-**** TODO [#1] Update Docs with jenkins@Quadrant.com login
+**** DONE [#1] Quadrant Send gzproj, file inspector reports, and lite xml.
+     CLOSED: [2016-02-16 Tue 10:14]
+**** TODO [#1] Update Docs with jenkins@quadrant.com login
 *** Rule set config
 *** LRM on-boarding
 *** Follow-up
@@ -259,7 +260,7 @@ CLOSED: [2015-12-07 Mon 10:37]
 CLOSED: [2015-12-15 Tue 16:44]
 ***** DONE [#4] (Lite) Add ... after "Logging In to Server"
 CLOSED: [2015-12-15 Tue 16:45]
-***** TODO [#4] Look in to users being shoved into demo mode prior to their license expiring.
+***** OVER [#4] Look in to users being shoved into demo mode prior to their license expiring.
 *** 2pm Friday
 ** Client notes
 **** Esri

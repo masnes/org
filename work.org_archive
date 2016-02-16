@@ -685,3 +685,17 @@ CLOSED: [2015-12-15 Tue 16:41]
 :END:
 ** Lite post release
 *** TODO [#5] Put licenses on wiki.
+
+* DONE [#1] [4/4] Refine / Test stack installer with:
+  CLOSED: [2015-12-04 Fri 13:57]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2016-02-16 Tue 10:18
+  :ARCHIVE_FILE: ~/org/work.org
+  :ARCHIVE_OLPATH: Weekly's/Weekly Meeting/Nov 30, 2015 Weekly Meeting/Stack Installer Work
+  :ARCHIVE_CATEGORY: work
+  :ARCHIVE_TODO: DONE
+  :END:
+- [X] Globalyzer Workbench, Lite
+- [X] Lrm Server
+- [X] Dashboard Server
+- [X] Dashboard Client

@@ -12,4 +12,4 @@ CLOSED: [2015-11-01 Sun 13:30]
 CLOSED: [2015-11-08 Sun 13:00]
 ** TODO [#B] Read https://hbr.org/2005/12/how-to-build-your-network/
 ** TODO [#B] Read willpower book
-   SCHEDULED: <2016-02-15 Mon 19:30>
+   SCHEDULED: <2016-02-17 Wed 19:30>

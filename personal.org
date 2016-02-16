@@ -24,7 +24,7 @@ CLOSED: [2015-11-02 Mon 14:07] DEADLINE: <2015-11-01 Sun>
 CLOCK: [2015-11-01 Sun 11:02]--[2015-11-01 Sun 12:30] =>  1:28
 :END:
 ** TODO [#A] Continue looking into finances
-   SCHEDULED: <2016-02-16 Tue 19:30>
+   SCHEDULED: <2016-02-17 Wed 19:30>
   :PROPERTIES:
   :Effort:   5:00
   :END:
@@ -58,6 +58,7 @@ CLOSED: [2015-11-08 Sun 13:00]
 *** DONE [#A] Find it first
 CLOSED: [2015-11-08 Sun 13:00]
 ** TODO [#A] Write Christina's Card
+*** TODO Christina's Card First Draft 
    SCHEDULED: <2016-02-15 Mon 20:30>
 * Sleep
 
@@ -115,9 +116,9 @@ To Discuss:
   :Effort:   0:30
   :END:
 ** TODO [#B] Check in about car maintenance light
-   SCHEDULED: <2016-02-15 Mon 11:30>
+   SCHEDULED: <2016-02-16 Tue 11:30>
 ** TODO [#A] Get tires rotated
-   SCHEDULED: <2016-02-15 Thu 11:30>
+   SCHEDULED: <2016-02-16 Tue 11:30>
 * Events
 ** DONE [#B] Facebook for campfire
 CLOSED: [2015-10-27 Tue 23:38] DEADLINE: <2015-10-27 Tue>
