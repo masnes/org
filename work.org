@@ -23,7 +23,7 @@ CLOSED: [2015-12-01 Tue 13:16]
 CLOSED: [2016-01-07 Thu 19:29]
 ***** DONE [#4] Password visibility discussion.
 CLOSED: [2015-12-17 Thu 13:05]
-***** WAIT [#2] Adapt stack installer feedback from first installation
+***** WAIT [#3] Adapt stack installer feedback from first installation
 - [ ] jq not in package repositories
 - [ ] Use pure regex instead
 - [X] Switch Java Version
@@ -60,7 +60,7 @@ Tibco
 Esri
 Rally
 AD
-**** OVER [#1] Guide John O'connor from Intuit.                   :Intuit:
+**** WAIT [#3] Guide John O'connor from Intuit.                      :Intuit:
 **** DONE [#2] Start Blackbaud install once server is up       :Blackbaud:
 CLOSED: [2016-01-12 Tue 10:34]
 **** OVER [#3] Work on the stack installer
@@ -77,18 +77,20 @@ Esri
 Rally
 AutoDesk
 *** JAN 08, 2015
-**** WAIT [#1] - [1] Stack Installer Happy Path
+**** WAIT [#4] - [1] Stack Installer Happy Path
 **** CANC [#1] - [2] Autodesk installation wth Stack Installer
      CLOSED: [2016-02-08 Mon 13:36]
-**** client [#1] - [3] BB Installation with Stack Installer
-***** oliv [#1] Onboarding, jenkins plugin stept
-**** DOIN [#1] - [4] ESRI Rule Sets
-**** TODO [#1] - [5] AMZN: Lite OK with Ayman
+**** oliv [#1] - [3] BB Installation with Stack Installer
+***** oliv [#1] Onboarding, jenkins plugin step
+**** WAIT [#1] - [4] ESRI Rule Sets
+**** CANC [#1] - [5] AMZN: Lite OK with Ayman
+     CLOSED: [2016-02-15 Mon 14:01]
 **** Likely for Week post Jan 18 :
 ***** Intuit
 ***** AirWatch?
 **** Likely for Week post Jan 25
 ***** Perl RS for Amazon
+
 ** Company Meetings
 *** Nov 09, 2015?
 **** My Meeting
@@ -101,26 +103,25 @@ AutoDesk
 - Intuit
 - NetApp
 - HP
-**** WAIT [#3] [3/5] Weekly Agenda Checklist
+**** WAIT [#3] [4/5] Weekly Agenda Checklist
 - [X] Lite out
   - [X] HTML Last pass for IDE usage page
   - [X] Exit error code bug fixed
   - [X] Project Path bug figured out
   - [X] Project Path bug fixed (Not a bug)
-- [ ] BB installation
-- [-] Stack Installer - BB harvesting
+- [-] BB installation
+- [X] Stack Installer - BB harvesting
 - [X] NetApp: Introduction
 - [X] Esri
 *** Nov 20, 2015?
 **** Product Team Meeting
 *** Dec 07, 2015
 **** WAIT [#4] Create email-able regex starter package.
-
 ** Clients
 * Dev
-** WAIT [#2] [4/5] Stack installer                                                                       :status meeting:
+** WAIT [#3] [4/6] Stack installer                                                                       :status meeting:
 - [X] Installer : from clean
-- [ ] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
+- [X] Migration installation: when LRM 2.2/Gz 4.8 -> upgrade
 - [X] Uninstaller
 *** DONE [#2] Update components (lrm, dashboard-server)
 CLOSED: [2016-01-07 Thu 19:29]
@@ -150,12 +151,12 @@ CLOSED: [2016-01-11 Mon 10:49]
 - jobs/lrm-server-2.2
 - /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/project_definitions/ProjectDefinition.xml
 - /home/masnes/work/lingoport/jenkins_setup/jenkins/jenkins/users/admin/config.xml
+*** TODO [#4] Test stack installer                                                                  :status meeting:
 ** Internet
 *** CANC [#5] Complain to comcast
     CLOSED: [2016-02-08 Mon 13:37]
     Packet transfer is very slow between 68.86.83.77 and 68.86.83.14
     CANCELED: may be due to my wireless card.
-** WAIT [#2] Test stack installer                                                                  :status meeting:
 ** Security
 *** TODO [#3] Double check all admin passwords
 ** Rule sets
@@ -165,9 +166,12 @@ CLOSED: [2016-01-11 Mon 10:49]
 - String method filters
 - String operand filters
 ** Globalyzer Lite
+*** TODO [#1] Get Lite v 5.1.x ready for release
+**** TODO [#1] More Unit Tests
+**** TODO [#1] Documentation ready for Amazon
+*** TODO [#2] Put up java proxy settings on wiki.
 *** Lite post release
 **** MYBE [#4] Put licenses on wiki.
-**** TODO [#2] Put up java proxy settings on wiki.
 **** CANC [#1] Swap saxon licenses with xamal ones
 CLOSED: [2015-12-28 Mon 14:00]
 **** DONE [#1] Encorporate Mary's new API changes into Lite.
@@ -186,9 +190,6 @@ CLOSED: [2015-12-28 Mon 14:00]
 ***** CANC [#1] Change regex example values in xml.
       CLOSED: [2016-02-11 Thu 16:09]
       Hidden, untested feature in this release
-**** TODO [#1] Get Lite v 5.1.x reader for release
-***** TODO [#1] More Unit Tests
-***** TODO [#1] Documentation ready for Amazon
 **** DONE [#1] Force server in both globalyzerrc and project definition file.
      CLOSED: [2016-02-09 Tue 18:02]
 **** DONE [#1] Enforce false-ing other checks.
@@ -210,7 +211,7 @@ CLOSED: [2015-11-10 Tue 11:21]
 Time guestimate: 20-30 hours net.
 *** User Facing
 ** Post-Sale
-*** Additional Demos
+*** Additional Post-Sale Demos
 *** OVER [#1] When on call with client. If a product improvement issue comes up
 Make sure to take lots of notes about the issue
 - Why can't they use the current solution?
@@ -222,17 +223,21 @@ Make sure to take lots of notes about the issue
 CLOSED: [2016-02-08 Mon 13:40] DEADLINE: <2015-11-24 Tue>
 - [X] Globalyzer (Lite?)
 **** MYBE [#3] Make sure John has LRM setup
-**** TODO [#2] Help Intuit with Rule Sets
-**** TODO [#2] Teach john while helping intuit.
+**** WAIT [#3] Help Intuit with Rule Sets
+**** WAIT [#3] Teach john while helping intuit.
 *** Pilot setup
 *** Install and config
-**** client [#2] [1/2] Setup Workbench installation for Blackbaud :Blackbaud:
+**** oliv [#2] [2/2] Setup Workbench installation for Blackbaud   :Blackbaud:
 Waiting on Russ's LDAP access 
 - Their vendor is OnePlanet
   - Control.xml (gives metadata to OnePlanet)
-***** MYBE [#2] Follow Instructions From Doc that Andrew sent
+... now on O's plate
+***** DONE [#2] Follow Instructions From Doc that Andrew sent
+      CLOSED: [2016-02-15 Mon 14:05]
 ***** DONE [#2] Will need admin access to globalyzer.com (get password from Olivier)
 CLOSED: [2015-11-12 Thu 10:07]
+*** TODO [#1] Quadrant Send gzproj, file inspector reports, and lite xml.
+**** TODO [#1] Update Docs with jenkins@Quadrant.com login
 *** Rule set config
 *** LRM on-boarding
 *** Follow-up
@@ -304,6 +309,7 @@ greengrasshoppereatingicecream
 ** DONE [#2] Get more info on the password policy controls email
 Our current password storage method is not sufficient for Rally to be happy
 ** TODO [#3] Set up amazon to warn adam when a certain amount of money is spent.
+** TODO [#1] Check bugzilla for updates
 * Competitors
 - Pasolo
 - Serge (LRM competitor)
